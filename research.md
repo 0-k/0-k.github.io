@@ -13,7 +13,7 @@ I try to understand the investment dynamics of renewable energy sources (RES), i
 
 * Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands
 
-* Klein, M., 2018. "Mid- to long-term modeling of energy market prices." Workshop of the German section of the IAEE, Cologne, Germany. [Download Copy](){:target="_blank"}
+* Klein, M., 2018. "Mid- to long-term modeling of energy market prices." Workshop of the German section of the IAEE, Cologne, Germany. [Download Copy](/data/Martin_Klein_DLR_GEE_Workshop_final_online.pdf){:target="_blank"}
 
 * Deissenroth, M., Klein, M., Nienhaus, K., & Reeg, M., 2017. “Assessing the Plurality of Actors and Policy Interactions: Agent-Based Modelling of Renewable Energy Market Integration." Complexity, vol. 2017, DOI: 10.1155/2017/7494313. [Download Copy](http://downloads.hindawi.com/journals/complexity/2017/7494313.pdf){:target="_blank"}
 
@@ -24,4 +24,4 @@ I try to understand the investment dynamics of renewable energy sources (RES), i
 
 A complete list can be found [here](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-4074/6449_read-30526/sortby-lastname/){:target="_blank"}. 
 
-Social links for completion: [ORCID](https://orcid.org/0000-0001-7283-4707){:target="_blank"}, [ResearchGate](https://www.researchgate.net/martinklein14){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=naFPZPIAAAAJ){:target="_blank"}.
+Social links for completion: [ORCID](https://orcid.org/0000-0001-7283-4707){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=naFPZPIAAAAJ){:target="_blank"}.
