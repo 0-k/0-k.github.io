@@ -18,16 +18,13 @@ permalink: /art/
 <body>
 <br>
 <br><font face="arial">
-<center>I_I I_I I_I <br>
-I<font color="white">_<font color="black">I I<font color="white">_<font color="black">I  I<font color="white">_<font color="black">I 
-
-<br><br><br><br><br><br>
+<center>
 
 <img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/06_1k.jpg" width="700"
      title = "If you hover over a picture, a mouseover text is displayed.">
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
-<body> 
+<body style="background-color:#FFFFFF"> 
 <pre>         
           _____                    _____                    _____          
          /\    \                  /\    \                  /\    \         
