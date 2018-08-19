@@ -4,7 +4,7 @@ title: ABOUT
 permalink: /about/
 ---
 
-HELLO WORLD
+`hello world`
 
 My name is Martin. I am fascinated by the world wide web, AI, music, art, space and big history. Here you find an excerpt from my most recent projects.
 
