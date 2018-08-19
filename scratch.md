@@ -1,63 +1,29 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>ART | H-H-H</title>
-<meta name="generator" content="Jekyll v3.8.3" />
-<meta property="og:title" content="ART" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Energy systems analyst at DLR. Enthusiastic about AI, music, art, space and big history 🤖" />
-<meta property="og:description" content="Energy systems analyst at DLR. Enthusiastic about AI, music, art, space and big history 🤖" />
-<link rel="canonical" href="http://localhost:4000/art/" />
-<meta property="og:url" content="http://localhost:4000/art/" />
-<meta property="og:site_name" content="H-H-H" />
-<script type="application/ld+json">
-{"description":"Energy systems analyst at DLR. Enthusiastic about AI, music, art, space and big history 🤖","@type":"WebPage","url":"http://localhost:4000/art/","headline":"ART","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="H-H-H" /></head>
-<body><header class="site-header" role="banner">
+---
+layout: page
+title: SCRATCH
+permalink: /scratch/
+---
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">H-H-H</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">ABOUT</a><a class="page-link" href="/art/">ART</a><a class="page-link" href="/music/">MUSIC</a><a class="page-link" href="/research/">RESEARCH</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">ART</h1>
-  </header>
-
-  <div class="post-content">
-    <html>
+<html>
 
 <head>
   <title>H-H-H</title>
-     <meta name="description" content="H-H-H" />
-     <meta name="keywords" content="H-H-H, HHH, Ink, Chinese Ink, Pictures, Mouseover Text, Ink on Photos" />
-     <meta name="author" content="Martin Klein, Stuttgart" />
-     <meta name="viewport" content="width=750, initial-scale=1" />
+     <meta name="description" content="H-H-H">
+     <meta name="keywords" content="H-H-H, HHH, Ink, Chinese Ink, Pictures, Mouseover Text, Ink on Photos">
+     <meta name="author" content="Martin Klein, Stuttgart">
+     <meta name="viewport" content="width=750, initial-scale=1">
      
 </head>
 <body>
-<br />
-<br /><font face="arial">
+<br>
+<br><font face="arial">
 <center>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/06_1k.jpg" width="700" title="If you hover over a picture, a mouseover text is displayed." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/06_1k.jpg" width="700"
+     title = "If you hover over a picture, a mouseover text is displayed.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body style="background-color:#FFFFFF"> 
 <pre>         
           _____                    _____                    _____          
@@ -83,11 +49,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/04_1k.jpg" height="630" title="There are a total of 27 images currently on this site." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/04_1k.jpg" height="630"
+     title="There are a total of 27 images currently on this site.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -97,11 +64,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/03_1k.jpg" width="700" title="So I can write 27 mouseover texts." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/03_1k.jpg" width="700"
+     title="So I can write 27 mouseover texts.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -114,11 +82,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/05_1k.jpg" height="630" title="27 sentences to speak to you." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/05_1k.jpg" height="630"
+     title="27 sentences to speak to you.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -133,16 +102,17 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
       
           
           
           
           
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/30_1k.jpg" width="700" title="Well, now I have already consumed five (including this one)." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/30_1k.jpg" width="700"
+     title="Well, now I have already consumed five (including this one).">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -168,11 +138,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/07_1k.jpg" height="540" title="I want to tell you why I make these pictures." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/07_1k.jpg" height="540"
+     title="I want to tell you why I make these pictures.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -182,11 +153,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/11_1k.jpg" width="700" title="I cannot say for sure." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/11_1k.jpg" width="700"
+     title="I cannot say for sure.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -199,11 +171,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/10_1k.jpg" height="630" title="I like to make them." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/10_1k.jpg" height="630"
+     title="I like to make them.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -218,11 +191,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        <img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/31_1k.jpg" width="700" title="I hope you enjoy them." />
+        <img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/31_1k.jpg" width="700"
+             title="I hope you enjoy them.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -248,11 +222,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/12_1k.jpg" height="630" title="It’s Chinese ink by the way, Chinese ink on photos." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/12_1k.jpg" height="630"
+     title="It’s Chinese ink by the way, Chinese ink on photos.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -262,11 +237,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/36_1k.jpg" width="700" title="The ink dissolves the photo slightly." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/36_1k.jpg" width="700"
+     title="The ink dissolves the photo slightly.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -279,11 +255,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/15_1k.jpg" height="630" title="And then you can scratch on it." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/15_1k.jpg" height="630"
+     title="And then you can scratch on it.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -298,16 +275,17 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
       
           
           
           
           
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/57_1k.jpg" width="700" title="I try to make the images more 'real'" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/57_1k.jpg" width="700"
+     title="I try to make the images more 'real'">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -333,11 +311,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/17_1k.jpg" height="630" title="These states" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/17_1k.jpg" height="630"
+     title="These states">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -347,11 +326,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/58_1k.jpg" width="700" title="Which are so hard to describe" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/58_1k.jpg" width="700"
+     title="Which are so hard to describe">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -364,11 +344,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/19_1k.jpg" height="630" title="But to be honest, I mostly make them to get heard." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/19_1k.jpg" height="630"
+     title="But to be honest, I mostly make them to get heard.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -383,11 +364,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />           
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>           
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/27_1k.jpg" width="700" title="It’s not about these pictures." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/27_1k.jpg" width="700" 
+     title="It’s not about these pictures.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -413,11 +395,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/59_1k.jpg" height="630" title="The message is mostly contained in my other projects." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/59_1k.jpg" height="630"
+     title="The message is mostly contained in my other projects.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -427,11 +410,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/37_1k.jpg" width="700" title="There will be a list below, and it will say: 'Feel free to visit them.'" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/37_1k.jpg" width="700"
+     title="There will be a list below, and it will say: 'Feel free to visit them.'">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -444,11 +428,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/08_1k.jpg" height="630" title="I'd be happy if you did of course." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/08_1k.jpg" height="630"
+     title="I'd be happy if you did of course.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -463,93 +448,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />             
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>             
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/13_1k.jpg" width="700" title="You have come so far now." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/13_1k.jpg" width="700"
+     title="You have come so far now.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<body> 
-<pre>         
-          _____                    _____                    _____          
-         /\    \                  /\    \                  /\    \         
-        /::\____\                /::\____\                /::\____\        
-       /:::/    /               /:::/    /               /:::/    /        
-      /:::/    /               /:::/    /               /:::/    /         
-     /:::/    /               /:::/    /               /:::/    /          
-    /:::/____/               /:::/____/               /:::/____/           
-   /::::\    \              /::::\    \              /::::\    \           
-  /::::::\    \   _____    /::::::\    \   _____    /::::::\    \   _____  
- /:::/\:::\    \ /\    \  /:::/\:::\    \ /\    \  /:::/\:::\    \ /\    \ 
-/:::/  \:::\    /::\____\/:::/  \:::\    /::\____\/:::/  \:::\    /::\____\
-\::/    \:::\  /:::/    /\::/    \:::\  /:::/    /\::/    \:::\  /:::/    /
- \/____/ \:::\/:::/    /  \/____/ \:::\/:::/    /  \/____/ \:::\/:::/    / 
-          \::::::/    /            \::::::/    /            \::::::/    /  
-           \::::/    /              \::::/    /              \::::/    /   
-           /:::/    /               /:::/    /               /:::/    /    
-          /:::/    /               /:::/    /               /:::/    /     
-         /:::/    /               /:::/    /               /:::/    /      
-        /:::/    /               /:::/    /               /:::/    /       
-        \::/    /                \::/    /                \::/    /        
-         \/____/                  \/____/                  \/____/         
-
-</pre> 
-</body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/51_1k.jpg" height="630" title="You got nothing to lose." />
-
-  
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
-<body> 
-<pre> 
- __  __     __  __     __  __    
-/\ \_\ \   /\ \_\ \   /\ \_\ \   
-\ \  __ \  \ \  __ \  \ \  __ \  
- \ \_\ \_\  \ \_\ \_\  \ \_\ \_\ 
-  \/_/\/_/   \/_/\/_/   \/_/\/_/ 
-</pre> 
-</body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
-
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/32_1k.jpg" width="700" title="Your freetime of course." />
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
-<body> 
-<pre> 
-
-██╗  ██╗██╗  ██╗██╗  ██╗
-██║  ██║██║  ██║██║  ██║
-███████║███████║███████║
-██╔══██║██╔══██║██╔══██║
-██║  ██║██║  ██║██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-
-</pre> 
-</body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
-  
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/39_1k.jpg" height="630" title="Focus." />
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<body> 
-<pre> 
-
-    ___       ___       ___   
-   /\__\     /\__\     /\__\  
-  /:/__/_   /:/__/_   /:/__/_ 
- /::\/\__\ /::\/\__\ /::\/\__\
- \/\::/  / \/\::/  / \/\::/  /
-   /:/  /    /:/  /    /:/  / 
-   \/__/     \/__/     \/__/  
-
-
-</pre> 
-</body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />             
-
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/35_1k.jpg" width="700" title="Focus is the only thing we got." />
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -576,14 +480,13 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/38_1k.jpg" height="630" title="Don't be afraid!" />
-
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/51_1k.jpg" height="630"
+     title="You got nothing to lose.">
 
   
-  
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -593,11 +496,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/45_1k.jpg" width="700" title="&lt;3" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/32_1k.jpg" width="700"
+     title="Your freetime of course.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -608,15 +512,14 @@
 ██║  ██║██║  ██║██║  ██║
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 
-
 </pre> 
 </body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+  
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/39_1k.jpg" height="630"
+     title="Focus.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />    
-
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/16_1k.jpg" height="630" title="And then you can scratch on it." />
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -631,16 +534,107 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>             
+
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/35_1k.jpg" width="700"
+     title="Focus is the only thing we got.">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<body> 
+<pre>         
+          _____                    _____                    _____          
+         /\    \                  /\    \                  /\    \         
+        /::\____\                /::\____\                /::\____\        
+       /:::/    /               /:::/    /               /:::/    /        
+      /:::/    /               /:::/    /               /:::/    /         
+     /:::/    /               /:::/    /               /:::/    /          
+    /:::/____/               /:::/____/               /:::/____/           
+   /::::\    \              /::::\    \              /::::\    \           
+  /::::::\    \   _____    /::::::\    \   _____    /::::::\    \   _____  
+ /:::/\:::\    \ /\    \  /:::/\:::\    \ /\    \  /:::/\:::\    \ /\    \ 
+/:::/  \:::\    /::\____\/:::/  \:::\    /::\____\/:::/  \:::\    /::\____\
+\::/    \:::\  /:::/    /\::/    \:::\  /:::/    /\::/    \:::\  /:::/    /
+ \/____/ \:::\/:::/    /  \/____/ \:::\/:::/    /  \/____/ \:::\/:::/    / 
+          \::::::/    /            \::::::/    /            \::::::/    /  
+           \::::/    /              \::::/    /              \::::/    /   
+           /:::/    /               /:::/    /               /:::/    /    
+          /:::/    /               /:::/    /               /:::/    /     
+         /:::/    /               /:::/    /               /:::/    /      
+        /:::/    /               /:::/    /               /:::/    /       
+        \::/    /                \::/    /                \::/    /        
+         \/____/                  \/____/                  \/____/         
+
+</pre> 
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/38_1k.jpg" height="630"
+     title="Don't be afraid!">
+
+
+  
+  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+<body> 
+<pre> 
+ __  __     __  __     __  __    
+/\ \_\ \   /\ \_\ \   /\ \_\ \   
+\ \  __ \  \ \  __ \  \ \  __ \  
+ \ \_\ \_\  \ \_\ \_\  \ \_\ \_\ 
+  \/_/\/_/   \/_/\/_/   \/_/\/_/ 
+</pre> 
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/45_1k.jpg" width="700"
+     title="<3">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+<body> 
+<pre> 
+
+██╗  ██╗██╗  ██╗██╗  ██╗
+██║  ██║██║  ██║██║  ██║
+███████║███████║███████║
+██╔══██║██╔══██║██╔══██║
+██║  ██║██║  ██║██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+
+
+</pre> 
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>    
+
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/16_1k.jpg" height="630"
+     title="And then you can scratch on it.">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<body> 
+<pre> 
+
+    ___       ___       ___   
+   /\__\     /\__\     /\__\  
+  /:/__/_   /:/__/_   /:/__/_ 
+ /::\/\__\ /::\/\__\ /::\/\__\
+ \/\::/  / \/\::/  / \/\::/  /
+   /:/  /    /:/  /    /:/  / 
+   \/__/     \/__/     \/__/  
+
+
+</pre> 
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
       
           
           
           
           
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/52_1k.jpg" width="700" title="I try to make the images more 'real'" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/52_1k.jpg" width="700"
+     title="I try to make the images more 'real'">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -666,11 +660,12 @@
          \/____/                  \/____/                  \/____/         
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/46_1k.jpg" height="630" title="These states" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/46_1k.jpg" height="630"
+     title="These states">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
  __  __     __  __     __  __    
@@ -680,11 +675,12 @@
   \/_/\/_/   \/_/\/_/   \/_/\/_/ 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/49_1k.jpg" width="700" title="Which are so hard to describe" />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/49_1k.jpg" width="700"
+     title="Which are so hard to describe">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 <body> 
 <pre> 
 
@@ -697,11 +693,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
   
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/41_1k.jpg" height="630" title="But to be honest, I mostly make them to get heard." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/41_1k.jpg" height="630"
+     title="But to be honest, I mostly make them to get heard.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre> 
 
@@ -716,11 +713,12 @@
 
 </pre> 
 </body>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />           
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>           
 
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/29_1k.jpg" width="700" title="It’s not about these pictures." />
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/29_1k.jpg" width="700" 
+     title="It’s not about these pictures.">
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <body> 
 <pre>         
           _____                    _____                    _____          
@@ -749,36 +747,36 @@
 
   
   
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br><br><br><br><br><br><br><br><br><br><br><br>
  <span style="text-transform: uppercase;">
 <font face="arial">
   ༼ つ ◕_◕ ༽つ
-  <br />
+  <br>
   
-        Hello earthling!<br />
-        <br />
-        You have reached the end of this website.<br />
-        Thank you for your patience and interest!<br />
-        I hope you enjoyed your stay!<br />
-<br />
-        These are other projects I pursue:<br />
+        Hello earthling!<br>
+        <br>
+        You have reached the end of this website.<br>
+        Thank you for your patience and interest!<br>
+        I hope you enjoyed your stay!<br>
+<br>
+        These are other projects I pursue:<br>
 
         <a target="_blank" href="https://soundcloud.com/0_k/">Music</a>
         <a target="_blank" href="https://fromfutureimport.blogspot.com/">Writing</a>
         <a target="_blank" href="https://sites.google.com/site/whataboutwiki/">Coding</a>
-        <a target="_blank" href="https://klein-m.github.io/">Research</a><br />
-        Feel free to visit them.<br />
-<br />
+        <a target="_blank" href="https://klein-m.github.io/">Research</a><br>
+        Feel free to visit them.<br>
+<br>
         Have a good day!
-<br />
-  <br />
-  <br />
+<br>
+  <br>
+  <br>
   <a href="mailto:IWANTTOREACHMARTIN@GMAIL.COM">Contact</a>
 
-&lt;/span&gt;
+</span>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/counter_1983.png" title="The Ministery of Truth asked me to replace the old counter." />
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="https://raw.githubusercontent.com/0-k/0-k.github.io/master/pictures/counter_1983.png" title="The Ministery of Truth asked me to replace the old counter.">
   
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -788,25 +786,11 @@
   ga('create', 'UA-89125679-1', 'auto');
   ga('send', 'pageview');
 </script>
- <br /> 
+ <br> 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">  
   
   
-&lt;/center&gt;
-&lt;/body&gt;
-
-&lt;/html&gt;
-</span></font></span></center></font></body></html>
-
-  </div>
-
-</article>
-
-      </div>
-    </main>
-
-    
-
-  </body>
+</center>
+</body>
 
 </html>

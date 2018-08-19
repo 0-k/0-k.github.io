@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![welcome](/data/69_2k_i.jpg){:class="img-responsive"}
