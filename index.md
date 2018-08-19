@@ -5,4 +5,4 @@
 layout: home
 ---
 
-![welcome](/data/69_2k_i.jpg){:class="img-responsive"}
+![welcome](/data/58_1k.jpg){:class="img-responsive"}
