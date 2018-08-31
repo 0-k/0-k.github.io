@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 700 16px/1.5 -apple-system, San Francisco Text, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -70,7 +70,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
+  font-weight: 400; }
 
 /**
  * Links
@@ -126,16 +126,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(900px - (30px * 2));
-  max-width: calc(900px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(900px - (30px));
-      max-width: calc(900px - (30px));
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -309,7 +309,7 @@ table {
  */
 .page-content {
   padding: 30px 0;
-  flex: 1; }
+  flex: 1 0 auto; }
 
 .page-heading {
   font-size: 32px; }
@@ -337,12 +337,14 @@ table {
 .post-header {
   margin-bottom: 30px; }
 
-.post-title {
+.post-title,
+.post-content h1 {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
-    .post-title {
+    .post-title,
+    .post-content h1 {
       font-size: 36px; } }
 
 .post-content {
