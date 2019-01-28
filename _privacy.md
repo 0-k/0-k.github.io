@@ -1,53 +1,22 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Martin Klein | I believe that only a more conscious, self-aware life can change the world — Art and science are the way — The internet is only as good as we make it, so let’s start building it.</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Martin Klein" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="I believe that only a more conscious, self-aware life can change the world — Art and science are the way — The internet is only as good as we make it, so let’s start building it." />
-<meta property="og:description" content="I believe that only a more conscious, self-aware life can change the world — Art and science are the way — The internet is only as good as we make it, so let’s start building it." />
-<link rel="canonical" href="http://localhost:4000/privacy/" />
-<meta property="og:url" content="http://localhost:4000/privacy/" />
-<meta property="og:site_name" content="Martin Klein" />
-<script type="application/ld+json">
-{"description":"I believe that only a more conscious, self-aware life can change the world — Art and science are the way — The internet is only as good as we make it, so let’s start building it.","@type":"WebPage","url":"http://localhost:4000/privacy/","headline":"Martin Klein","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Martin Klein" /></head>
-<body><header class="site-header" role="banner">
+---
+layout: page
+title: PRIVACY
+permalink: /privacy/
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/"><b>H-H-H</b></a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"><a class="page-link" href="/about/"><b>ABOUT</b></a><a class="page-link" href="/articles/"><b>ARTICLES</b></a><a class="page-link" href="/music/"><b>MUSIC</b></a><a class="page-link" href="/research/"><b>RESEARCH</b></a><a class="page-link" href="/scratch/"><b>SCRATCH</b></a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
+---
 
 
-
-  <div class="post-content">
-    <h2>Privacy Policy</h2>
+<h2>Privacy Policy</h2>
 <p>Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
 <p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the "GDPR"), "processing" refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
 <p>The following privacy policy is intended to inform you in particular about the type, scope, purpose, duration, and legal basis for the processing of such data either under our own control or in conjunction with others. We also inform you below about the third-party components we use to optimize our website and improve the user experience which may result in said third parties also processing data they collect and control.</p>
 <p>Our privacy policy is structured as follows:</p>
-<p>I. Information about us as controllers of your data<br />II. The rights of users and data subjects<br />III. Information about the data processing</p>
+<p>I. Information about us as controllers of your data<br>II. The rights of users and data subjects<br>III. Information about the data processing</p>
 <h3>I. Information about us as controllers of your data</h3>
 <p>The party responsible for this website (the "controller") for purposes of data protection law is:</p>
 <p><span>Martin Klein</span>
-	<br /><span>Email: iwanttoreachmartin@gmail.com</span></p>
+	<br><span>Email: iwanttoreachmartin@gmail.com</span></p>
+
 
 <h3>II. The rights of users and data subjects</h3>
 <p>With regard to the data processing to be described in more detail below, users and data subjects have the right</p>
@@ -68,16 +37,8 @@
 <p>When you access one of our Internet pages that includes the OpenStreetMap service, OpenStreetMap stores a cookie on your terminal device via your browser. This processes your user settings and user data for the purpose of displaying the page or guaranteeing the functionality of the OpenStreetMap service. Through this processing, OpenStreetMap can recognize the website from which your request has been sent and to which IP address the directions should be transmitted.&nbsp;</p>
 <p>The legal basis for collecting and processing this information is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
 <p>If you do not agree to this processing, you have the option of preventing the installation of cookies by making the appropriate settings in your browser. Further details can be found in the section about cookies above.</p>
-<p>OpenStreetMap offers further information about its data collection and processing as well your rights and your options for protecting your privacy at this link:</p>
+<p>Vimeo offers further information about its data collection and processing as well your rights and your options for protecting your privacy at this link:</p>
 <p><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">https://wiki.osmfoundation.org/wiki/Privacy_Policy</a>.</p>
-
-<h4>Soundcloud</h4>
-<p>For music on our site, we use Soundcloud, a service of SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Germany hereinafter referred to as "Soundcloud".</p>
-<p>When you access one of our Internet pages that includes the Soundcloud service, Soundcloud stores a cookie on your terminal device via your browser. This processes your user settings and user data for the purpose of displaying the page or guaranteeing the functionality of the Soundcloud service. Through this processing, Soundcloud can recognize the website from which your request has been sent and to which IP address the music should be transmitted.&nbsp;</p>
-<p>The legal basis for collecting and processing this information is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
-<p>If you do not agree to this processing, you have the option of preventing the installation of cookies by making the appropriate settings in your browser. Further details can be found in the section about cookies above.</p>
-<p>Soundcloud offers further information about its data collection and processing as well your rights and your options for protecting your privacy at this link:</p>
-<p><a href="https://soundcloud.com/pages/privacy" target="_blank" rel="noopener">https://soundcloud.com/pages/privacy</a>.</p>
 
 <h4>YouTube</h4>
 <p>We use YouTube on our website. This is a video portal operated by YouTube LLC, 901 Cherry Ave, 94066 San Bruno, CA, USA, hereinafter referred to as "YouTube".</p>
@@ -96,43 +57,3 @@
 <p><a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener">Model Data Protection Statement</a> for <a href="https://www.ratgeberrecht.eu/" target="_blank">Anwaltskanzlei Weiß &amp; Partner</a></p>
 
 
-  </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-  
-  <div class="wrapper">
-
-    <h2 class="footer-heading"></h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name"><b>Martin Klein</li></b><li><a class="u-email" href="mailto:iwanttoreachmartin@gmail.com">iwanttoreachmartin@gmail.com</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/0-k"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">github</span></a></li><li><a href="https://www.linkedin.com/in/martin-klein1"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">linkedin</span></a></li><li><a href="https://twitter.com/macht_ihn_klein"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">twitter</span></a></li><li><a href="https://www.soundcloud.com/0_k"><svg class="svg-icon"><use xlink:href="/assets/SoundCloud_-_Logo.svg"></use></svg> <span class="username">soundcloud</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>I believe that only a more conscious, self-aware life can change the world  — Art and science are the way  — The internet is only as good as we make it, so let’s start building it.</p>
-        <div align="right">
-          <a href="/privacy" style="color:#c4c4c4"> <small><small><small>privacy policy</small></small></small></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div>
-        
-      </div>
-
-  </div>
-
-</footer>
-</body>
-
-</html>
