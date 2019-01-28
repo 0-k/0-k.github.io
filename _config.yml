@@ -16,9 +16,11 @@
 title: Martin Klein
 email: iwanttoreachmartin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Energy systems analyst at DLR. Enthusiastic about AI, music, art, space and big history 🤖
+  I believe that only a more conscious, self-aware life can change the world 
+  — Art and science are the way 
+  — The internet is only as good as we make it, so let’s start building it.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.h-h-h.net" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: martin-klein1
 twitter_username: macht_ihn_klein
 github_username:  0-k

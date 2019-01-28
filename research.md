@@ -16,7 +16,7 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 * Klein, M., Xiao, M. & Junne, T., 2018. "Benchmarking VRE cost assumptions with awarded renewable energy auctions - A comparative assessment of global energy scenarios." Energy Scenarios Conference, Karlsruhe, Germany. [Download Copy](https://zenodo.org/record/1435842){:target="_blank"}
 
-* Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands
+* Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands [Code](https://gitlab.com/energy-systems-analysis/prosumerpolicy/){:target="_blank"}
 
 * Klein, M., 2018. "Mid- to long-term modeling of energy market prices." Workshop of the German section of the IAEE, Cologne, Germany. [Download Copy](/data/Martin_Klein_DLR_GEE_Workshop_final_online.pdf){:target="_blank"}
 
@@ -33,3 +33,5 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 * A more or less complete [list of talks](https://elib.dlr.de/cgi/search/archive/advanced?_action_search=1&dataset=archive&exp=0%7C1%7C-date%2Fcreators_name%2Ftitle%7Carchive%7C-%7Ccreators_name%3Acreators_name%3AALL%3AEQ%3Amartin+klein%7Csubjects%3Asubjects%3AANY%3AEQ%3Att-st%7C-%7Ceprint_status%3Aeprint_status%3AANY%3AEQ%3Aarchive&order=-date%2Fcreators_name%2Ftitle){:target="_blank"}. 
 
 * Social links: [ORCID](https://orcid.org/0000-0001-7283-4707){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=naFPZPIAAAAJ){:target="_blank"}.
+
+* Projects of others that deserve attention: [openMod](https://openmod-initiative.org/){:target="_blank"}, [WHOBS](hhttps://whobs.org/){:target="_blank"}, [renewables.ninja](https://www.renewables.ninja/){:target="_blank"}.

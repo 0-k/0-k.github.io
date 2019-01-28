@@ -6,12 +6,15 @@ permalink: /about/
 
 `hello world`
 
-My name is Martin. I am fascinated by the world wide web, AI, music, art, space and big history. The internet is only as good as we make it.
+My name is Martin.
 I believe that only a more conscious, self-aware life can change the world. Art and science are the way.
+The internet is only as good as we make it, so let's start building it.
+
+—
 
 By day, I am an energy analyst at the German Aerospace Center (DLR), interested in all aspects of renewable energy systems. Check out my research [here](/research/). Views are my own.
 
-When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software. My [blog](/blog/) is a mixture of short and not so short thoughts.
+When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software. The [articles](/articles/) section is a mixture of short and not so short typed-up thoughts.
 
 
 <br>
