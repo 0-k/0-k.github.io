@@ -7,21 +7,6 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-.image-quer
-{
-    margin: 0 auto;
-    display: block;
-    width: 80%;
-}
-
-.image-hoch
-{
-    margin: 0 auto;
-    display: block;
-    width: 60%;
-}
-
-
 /**
  * Basic styling
  */

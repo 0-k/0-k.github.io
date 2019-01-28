@@ -12,7 +12,9 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 <br> 
 
-#### My most recent publications and talks:
+#### <b>My most recent publications and talks:</b>
+
+* Klein, M., Xiao, M. & Junne, T., 2018. "Benchmarking VRE cost assumptions with awarded renewable energy auctions - A comparative assessment of global energy scenarios." Energy Scenarios Conference, Karlsruhe, Germany. [Download Copy](https://zenodo.org/record/1435842){:target="_blank"}
 
 * Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands
 
@@ -24,7 +26,7 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 <br> 
 
-#### etc.
+#### <b>etc.</b>
 
 * [Short CV](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-4074/6449_read-30526/sortby-lastname/){:target="_blank"} at the DLR page.
 

@@ -6,19 +6,22 @@ permalink: /about/
 
 `hello world`
 
-My name is Martin. I am fascinated by the world wide web, AI, music, art, space and big history. 
+My name is Martin. I am fascinated by the world wide web, AI, music, art, space and big history. The internet is only as good as we make it.
+I believe that only a more conscious, self-aware life can change the world. Art and science are the way.
 
-By day, I am an energy analyst at the German Aerospace Center (DLR), interested in all aspects of renewable energy systems. Check out my research [here](/research/).
+By day, I am an energy analyst at the German Aerospace Center (DLR), interested in all aspects of renewable energy systems. Check out my research [here](/research/). Views are my own.
 
-When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software.
+When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software. My [blog](/blog/) is a mixture of short and not so short thoughts.
+
 
 <br>
-#### etc.
+#### <b>etc.</b>
 
 You can find me on other interweb sites:
 
-* [Instagram](https://www.instagram.com/zero.kelvin/){:target="_blank"} — hello
+<!---* [Instagram](https://www.instagram.com/zero.kelvin/){:target="_blank"} — hello -->
 * [Twitter](https://twitter.com/macht_ihn_klein){:target="_blank"} — hi
+* [Soundcloud](https://soundcloud.com/0_k){:target="_blank"} — musics
 * [GitHub](https://github.com/0-k){:target="_blank"} — code
 * [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"} — papers
 * [LinkedIn](https://www.linkedin.com/martin-klein1){:target="_blank"} — professional and all

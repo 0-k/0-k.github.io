@@ -18,7 +18,7 @@ Latest mix:
 
 <br>
 
-#### etc.
+#### <b>etc.</b>
 
 * [Here is more](https://soundcloud.com/0_k/).  
 
