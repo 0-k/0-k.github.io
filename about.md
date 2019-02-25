@@ -16,7 +16,6 @@ By day, I am an energy analyst at the German Aerospace Center (DLR), interested 
 
 When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software. The [articles](/articles/) section is a mixture of short and not so short typed-up thoughts.
 
-
 <br>
 #### <b>etc.</b>
 
@@ -29,3 +28,5 @@ You can find me on other interweb sites:
 * [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"} — papers
 * [LinkedIn](https://www.linkedin.com/martin-klein1){:target="_blank"} — professional and all
 * [What About](http://www.what-about.net){:target="_blank"} — prototype of a cognitive associate I would like to build
+
+This website has proudly been built with open-source tool [Jekyll](https://jekyllrb.com/){:target="_blank"}.
