@@ -29,4 +29,4 @@ You can find me on other interweb sites:
 * [LinkedIn](https://www.linkedin.com/martin-klein1){:target="_blank"} — professional and all
 * [What About](http://www.what-about.net){:target="_blank"} — prototype of a cognitive associate I would like to build
 
-This website has proudly been built with open-source tool [Jekyll](https://jekyllrb.com/){:target="_blank"}.
+Proudly built with [Jekyll](https://jekyllrb.com/){:target="_blank"}, a free and open source static site generator.
