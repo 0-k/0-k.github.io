@@ -14,9 +14,11 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 #### <b>My most recent publications and talks:</b>
 
+* Klein, M., Deissenroth, M. & Schimeczek, C., 2019. "Mapping the challenge of renewable electricity market integration – Multi-scenario analysis with an agent-based electricity market model." IEWT, Vienna, Austria. [Download Copy](https://iewt2019.eeg.tuwien.ac.at/download/contribution/abstract/196/196_abstract_20181107_171432.pdf){:target="_blank"}
+
 * Klein, M., Xiao, M. & Junne, T., 2018. "Benchmarking VRE cost assumptions with awarded renewable energy auctions - A comparative assessment of global energy scenarios." Energy Scenarios Conference, Karlsruhe, Germany. [Download Copy](https://zenodo.org/record/1435842){:target="_blank"}
 
-* Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands [Code](https://gitlab.com/energy-systems-analysis/prosumerpolicy/){:target="_blank"}
+* Klein, M., Ziade, A., Deissenroth, M., 2018. "The system friendliness of solar self-consumption under different regulatory regimes." International Association for Energy Economics (IAEE), International Conference, Groningen, The Netherlands. [Code](https://gitlab.com/energy-systems-analysis/prosumerpolicy/){:target="_blank"}
 
 * Klein, M., 2018. "Mid- to long-term modeling of energy market prices." Workshop of the German section of the IAEE, Cologne, Germany. [Download Copy](/data/Martin_Klein_DLR_GEE_Workshop_final_online.pdf){:target="_blank"}
 
