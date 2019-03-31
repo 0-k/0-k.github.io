@@ -4,15 +4,14 @@ title: RESEARCH
 permalink: /research/
 ---
 
-Currently, I am writing my PhD dissertation on agent-based modeling of electricity markets. 
-Basically, we try to understand and model what the transition towards clean energy can look like.
-The work is located in the department of [Energy Systems Analysis](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-2904/4394_read-6500/){:target="_blank"} at the German Aerospace Center (DLR). 
+Currently, I am writing my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards clean energy can look like.
 
 I am researching the investment dynamics of renewable energy sources (RES), in particular decentralized sources like solar photovoltaics (PV), and how to shape and regulate energy markets with very high shares of RES. Special attention is paid to PV battery systems and the techno-economic assessment of households which not only consume but also produce electricity (so-called prosumers). The work combines insights from computer science, engineering, economics and psychology.
 
 <br> 
 
 #### <b>My most recent publications and talks:</b>
+* Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, forthcoming, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
 
 * Klein, M., Deissenroth, M. & Schimeczek, C., 2019. "Mapping the challenge of renewable electricity market integration – Multi-scenario analysis with an agent-based electricity market model." IEWT, Vienna, Austria. [Download Copy](https://iewt2019.eeg.tuwien.ac.at/download/contribution/abstract/196/196_abstract_20181107_171432.pdf){:target="_blank"}
 
@@ -30,7 +29,7 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 #### <b>etc.</b>
 
-* [Short CV](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-4074/6449_read-30526/sortby-lastname/){:target="_blank"} at the DLR page.
+* [Short CV](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-4074/6449_read-30526/sortby-lastname/){:target="_blank"} at the DLR page, where most of the work was carried out.
 
 * A more or less complete [list of talks](https://elib.dlr.de/cgi/search/archive/advanced?_action_search=1&dataset=archive&exp=0%7C1%7C-date%2Fcreators_name%2Ftitle%7Carchive%7C-%7Ccreators_name%3Acreators_name%3AALL%3AEQ%3Amartin+klein%7Csubjects%3Asubjects%3AANY%3AEQ%3Att-st%7C-%7Ceprint_status%3Aeprint_status%3AANY%3AEQ%3Aarchive&order=-date%2Fcreators_name%2Ftitle){:target="_blank"}. 
 

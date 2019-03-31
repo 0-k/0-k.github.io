@@ -12,7 +12,7 @@ The internet is only as good as we make it, so let's start building it.
 
 —
 
-By day, I am an energy analyst at the German Aerospace Center (DLR), interested in all aspects of renewable energy systems. Check out my research [here](/research/). Views are my own.
+By day, I am an energy analyst interested in all aspects of renewable energy systems. Check out my research [here](/research/).
 
 When time allows it, I like to [make music](/music/), [manipulate analogue photos with ink](/scratch/), and work with software. The [articles](/articles/) section is a mixture of short and not so short typed-up thoughts.
 
