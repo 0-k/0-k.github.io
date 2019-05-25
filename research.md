@@ -29,7 +29,6 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 #### <b>etc.</b>
 
-* [Short CV](https://www.dlr.de/tt/en/desktopdefault.aspx/tabid-4074/6449_read-30526/sortby-lastname/){:target="_blank"} at the DLR page, where most of the work was carried out.
 
 * A more or less complete [list of talks](https://elib.dlr.de/cgi/search/archive/advanced?_action_search=1&dataset=archive&exp=0%7C1%7C-date%2Fcreators_name%2Ftitle%7Carchive%7C-%7Ccreators_name%3Acreators_name%3AALL%3AEQ%3Amartin+klein%7Csubjects%3Asubjects%3AANY%3AEQ%3Att-st%7C-%7Ceprint_status%3Aeprint_status%3AANY%3AEQ%3Aarchive&order=-date%2Fcreators_name%2Ftitle){:target="_blank"}. 
 
