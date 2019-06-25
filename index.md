@@ -6,6 +6,10 @@ layout: page
 ---
 
 ![welcome](/data/querformat/58_1k.jpg){:class="img-responsive"}
+
+<?php include( 'assets/counter.php' ); ?>
+
+
 <meta name="p:domain_verify" content="5a2115b52fbcfc62e6ee73300551f14b"/>
 
 <meta name="twitter:card" content="summary">
