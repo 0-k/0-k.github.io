@@ -11,7 +11,9 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 <br> 
 
 #### <b>My most recent publications and talks:</b>
-* Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, forthcoming, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
+* Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market - The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, in press. [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
+
+* Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, 118, pp. 61-75, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
 
 * Klein, M., Deissenroth, M. & Schimeczek, C., 2019. "Mapping the challenge of renewable electricity market integration – Multi-scenario analysis with an agent-based electricity market model." IEWT, Vienna, Austria. [Download Copy](https://iewt2019.eeg.tuwien.ac.at/download/contribution/abstract/196/196_abstract_20181107_171432.pdf){:target="_blank"}
 
@@ -23,7 +25,7 @@ I am researching the investment dynamics of renewable energy sources (RES), in p
 
 * Deissenroth, M., Klein, M., Nienhaus, K., & Reeg, M., 2017. “Assessing the Plurality of Actors and Policy Interactions: Agent-Based Modelling of Renewable Energy Market Integration." Complexity, vol. 2017, DOI: 10.1155/2017/7494313. [Download Copy](http://downloads.hindawi.com/journals/complexity/2017/7494313.pdf){:target="_blank"}
 
-* Klein, M. & Deissenroth, M., 2017. "When do households invest in solar photovoltaics? An application of prospect theory." Energy Policy, 109, pp.270– 278, DOI: 10.1016/j.enpol.2017.06.067. [Download Copy](https://arxiv.org/pdf/1808.05572.pdf){:target="_blank"}
+* Klein, M. & Deissenroth, M., 2017. "When do households invest in solar photovoltaics? An application of prospect theory." Energy Policy, 109, pp. 270–278, DOI: 10.1016/j.enpol.2017.06.067. [Download Copy](https://arxiv.org/pdf/1808.05572.pdf){:target="_blank"}
 
 <br> 
 
