@@ -22,11 +22,10 @@ When time allows it, I like to [make music](/music/), [manipulate analogue photo
 You can find me on other interweb sites:
 
 <!---* [Instagram](https://www.instagram.com/zero.kelvin/){:target="_blank"} — hello -->
-* [Twitter](https://twitter.com/macht_ihn_klein){:target="_blank"} — hi
+* [Twitter](https://twitter.com/martin_klein_){:target="_blank"} — hi
 * [Soundcloud](https://soundcloud.com/0_k){:target="_blank"} — musics
 * [GitHub](https://github.com/0-k){:target="_blank"} — code
 * [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"} — papers
 * [LinkedIn](https://www.linkedin.com/martin-klein1){:target="_blank"} — professional and all
-* [What About](http://www.what-about.net){:target="_blank"} — prototype of a cognitive associate I would like to build
 
 Proudly built with [Jekyll](https://jekyllrb.com/){:target="_blank"}, a free and open source static site generator.
