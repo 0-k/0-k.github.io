@@ -4,13 +4,20 @@ title: RESEARCH
 permalink: /research/
 ---
 
-Currently, I am writing my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards clean energy can look like.
 
-I am researching the investment dynamics of renewable energy sources (RES), in particular decentralized sources like solar photovoltaics (PV), and how to shape and regulate energy markets with very high shares of RES. Special attention is paid to PV battery systems and the techno-economic assessment of households which not only consume but also produce electricity (so-called prosumers). The work combines insights from computer science, engineering, economics and psychology.
+I just submitted my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards net-zero emission energy systems can look like. What fascinates me most is solar energy. For the last 10+ years I have read everything I could find on the subject.
+
+In that time, PV costs decreased by more than 90%.
+We are not far from the point that solar energy is so cheap that abundant clean energy for all can become a reality.
+
+![PV learning curve, showing the orders of magnitude of cost decline over the decades.](/data/learning_curves.jpeg "PV learning curve, showing the orders of magnitude of cost decline over the decades.")
+
+Specifically, I have researched the investment dynamics of solar photovoltaics (PV), and how to shape and regulate energy markets with very high shares of renewables. I focus on PV-battery systems and the techno-economic assessment of households which not only consume but also produce electricity (so-called prosumers). The work combines insights from computer science, engineering, economics and psychology.
+
 
 <br> 
 
-#### <b>My most recent publications and talks:</b>
+#### <b>Most recent publications and talks:</b>
 * Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market - The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, in press. [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
 
 * Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, 118, pp. 61-75, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}

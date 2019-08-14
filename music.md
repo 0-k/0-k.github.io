@@ -4,7 +4,7 @@ title: MUSIC
 permalink: /music/
 ---
 
-My objective is to stitch together forward thinking dance music like Dubstep and UK Bass with more traditional modes like Disco and House, carving out the parts which I like the most: Mind-hugging fatty basses, mad percussions that remind us of our tribal heritage, and that sweet sweet kiss of a groove. 
+My objective is to stitch together forward thinking dance music like Dubstep and UK Bass with more traditional modes like Disco and House. 
 
 <br>
 
