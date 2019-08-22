@@ -30,6 +30,6 @@ You can find me on other interweb sites:
 * [Soundcloud](https://soundcloud.com/0_k){:target="_blank"} — musics
 * [GitHub](https://github.com/0-k){:target="_blank"} — code
 * [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"} — papers
-* [LinkedIn](https://www.linkedin.com/martin-klein1){:target="_blank"} — professional and all
+* [LinkedIn](https://www.linkedin.com/in/martin-klein1){:target="_blank"} — professional and all
 
 This website is proudly built with [Jekyll](https://jekyllrb.com/){:target="_blank"}, a free and open source static site generator. The internet is only as good as we make it, so let's start building it!
