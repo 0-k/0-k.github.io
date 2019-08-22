@@ -18,7 +18,9 @@ Specifically, I have researched the investment dynamics of solar photovoltaics (
 <br> 
 
 #### <b>Most recent publications and talks:</b>
-* Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market - The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, in press. [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
+* Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market – The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, in press. [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
+
+* Klein, M., Frey, U., Reeg, M., 2019. "Models Within Models – Agent-Based Modelling and Simulation in Energy Systems Analysis." Journal of Artificial Societies and Social Simulation, accepted. 
 
 * Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, 118, pp. 61-75, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
 
