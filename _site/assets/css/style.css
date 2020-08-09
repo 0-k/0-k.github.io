@@ -309,7 +309,7 @@ table {
  */
 .page-content {
   padding: 30px 0;
-  flex: 1 0 auto; }
+  flex: 1; }
 
 .page-heading {
   font-size: 36px; }
@@ -337,14 +337,12 @@ table {
 .post-header {
   margin-bottom: 30px; }
 
-.post-title,
-.post-content h1 {
+.post-title {
   font-size: 47.25px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
-    .post-title,
-    .post-content h1 {
+    .post-title {
       font-size: 40.5px; } }
 
 .post-content {

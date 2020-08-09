@@ -5,22 +5,23 @@ permalink: /research/
 ---
 
 
-I just submitted my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards net-zero emission energy systems can look like. What fascinates me most is solar energy. For the last 10+ years I have read everything I could find on the subject.
+I wrote my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards net-zero emission energy systems can look like. 
 
-In that time, PV costs decreased by more than 90%.
-We are not far from the point that solar energy is so cheap that abundant clean energy for all can become a reality.
+I think we are not far from the point that abundant clean energy for all can become a reality. Bringing this to reality is paramount. See for example this learning curve, showing the orders of magnitude of cost decline of solar over the decades.
 
 ![PV learning curve, showing the orders of magnitude of cost decline over the decades.](/data/learning_curves.jpeg "PV learning curve, showing the orders of magnitude of cost decline over the decades.")
-
-Specifically, I have researched the investment dynamics of solar photovoltaics (PV), and how to shape and regulate energy markets with very high shares of renewables. I focus on PV-battery systems and the techno-economic assessment of households which not only consume but also produce electricity (so-called prosumers). The work combines insights from computer science, engineering, economics and psychology.
 
 
 <br> 
 
 #### <b>Most recent publications and talks:</b>
-* Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market – The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, in press. [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
+* Schreck, S., Schroedter-Homscheidt, M., Klein, M., Cao, K., 2020. "Satellite image-based generation of high frequency solar radiation time series for the assessment of solar energy systems.“ Meteorologische Zeitschrift (Contributions to Atmospheric Sciences), in press.
 
-* Klein, M., Frey, U., Reeg, M., 2019. "Models Within Models – Agent-Based Modelling and Simulation in Energy Systems Analysis." Journal of Artificial Societies and Social Simulation, accepted. 
+* Thess, A., Klein, M., Nienhaus, K. & Pregger, T., 2020. "Global carbon surcharge for the reduction of anthropogenic emission of carbon dioxide.” Energy, Sustainability and Society, 10:9.
+
+* Klein, M., Ziade, A., de Vries, L., 2019. "Aligning prosumers with the electricity wholesale market – The impact of time-varying price signals and fixed network charges on solar self-consumption." Energy Policy, 134, pp. 110901, DOI: 10.1016/j.enpol.2019.110901. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0301421519304793){:target="_blank"}, [Code](https://github.com/0-k/prosumerpolicy){:target="_blank"}
+
+* Klein, M., Frey, U., Reeg, M., 2019. "Models Within Models – Agent-Based Modelling and Simulation in Energy Systems Analysis." Journal of Artificial Societies and Social Simulation, 22 (4), 6, DOI: 10.18564/jasss.4129. [Download Copy](http://jasss.soc.surrey.ac.uk/22/4/6.html){:target="_blank"} 
 
 * Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, 118, pp. 61-75, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
 
@@ -41,8 +42,6 @@ Specifically, I have researched the investment dynamics of solar photovoltaics (
 #### <b>etc.</b>
 
 
-* A more or less complete [list of talks](https://elib.dlr.de/cgi/search/archive/advanced?_action_search=1&dataset=archive&exp=0%7C1%7C-date%2Fcreators_name%2Ftitle%7Carchive%7C-%7Ccreators_name%3Acreators_name%3AALL%3AEQ%3Amartin+klein%7Csubjects%3Asubjects%3AANY%3AEQ%3Att-st%7C-%7Ceprint_status%3Aeprint_status%3AANY%3AEQ%3Aarchive&order=-date%2Fcreators_name%2Ftitle){:target="_blank"}. 
-
 * Social links: [ORCID](https://orcid.org/0000-0001-7283-4707){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=naFPZPIAAAAJ){:target="_blank"}.
 
-* Projects of others that deserve attention: [openMod](https://openmod-initiative.org/){:target="_blank"}, [WHOBS](hhttps://whobs.org/){:target="_blank"}, [renewables.ninja](https://www.renewables.ninja/){:target="_blank"}.
+* Visit those projects: [openMod](https://openmod-initiative.org/){:target="_blank"}, [model.energy](https://model.energy){:target="_blank"}, [renewables.ninja](https://www.renewables.ninja/){:target="_blank"}.

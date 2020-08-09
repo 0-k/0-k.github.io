@@ -4,7 +4,7 @@ title: MUSIC
 permalink: /music/
 ---
 
-My objective is to stitch together forward thinking dance music like Dubstep and UK Bass with more traditional modes like Disco and House. 
+Stitching together Dubstep and Disco. 
 
 <br>
 
