@@ -7,7 +7,7 @@ permalink: /research/
 
 I wrote my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards net-zero emission energy systems can look like. 
 
-I think we are not far from the point that abundant clean energy for all can become a reality. Bringing this to reality is paramount. See for example this learning curve, showing the orders of magnitude of cost decline of solar over the decades.
+I think we are not far from the point that abundant clean energy for all can become a reality. Bringing this to reality is paramount. See for example this learning curve, showing the orders of magnitude of cost decline of solar energy over the decades.
 
 ![PV learning curve, showing the orders of magnitude of cost decline over the decades.](/data/learning_curves.jpeg "PV learning curve, showing the orders of magnitude of cost decline over the decades.")
 
@@ -15,6 +15,7 @@ I think we are not far from the point that abundant clean energy for all can bec
 <br> 
 
 #### <b>Most recent publications and talks:</b>
+
 * Schreck, S., Schroedter-Homscheidt, M., Klein, M., Cao, K., 2020. "Satellite image-based generation of high frequency solar radiation time series for the assessment of solar energy systems.“ Meteorologische Zeitschrift (Contributions to Atmospheric Sciences), in press.
 
 * Thess, A., Klein, M., Nienhaus, K. & Pregger, T., 2020. "Global carbon surcharge for the reduction of anthropogenic emission of carbon dioxide.” Energy, Sustainability and Society, 10:9.
@@ -44,4 +45,6 @@ I think we are not far from the point that abundant clean energy for all can bec
 
 * Social links: [ORCID](https://orcid.org/0000-0001-7283-4707){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Martin_Klein14){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=naFPZPIAAAAJ){:target="_blank"}.
 
-* Visit those projects: [openMod](https://openmod-initiative.org/){:target="_blank"}, [model.energy](https://model.energy){:target="_blank"}, [renewables.ninja](https://www.renewables.ninja/){:target="_blank"}.
+* Visit those projects: 
+[openMod](https://openmod-initiative.org/){:target="_blank"}, [model.energy](https://model.energy){:target="_blank"}, [renewables.ninja](https://www.renewables.ninja/){:target="_blank"}.
+
