@@ -1,2 +1,2 @@
-*.lock
+/Gemfile.lock
 *cache
