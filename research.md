@@ -12,9 +12,14 @@ I think we are not far from the point that abundant clean energy for all can bec
 ![PV learning curve, showing the orders of magnitude of cost decline over the decades.](/data/learning_curves.jpeg "PV learning curve, showing the orders of magnitude of cost decline over the decades.")
 
 
+
+
 <br>
 
 #### <b>Most recent publications and talks:</b>
+
+* Klein, M., 2020. "Agent-based modeling and simulation of renewable energy market integration: the case of PV-battery systems." University of Stuttgart, Dissertation, DOI: 10.18419/opus-11132. [Download Copy](https://elib.uni-stuttgart.de/handle/11682/11149){:target="_blank"}
+
 
 * Frey, U., Klein, M., Nienhaus, K. & Schimeczek, C., 2020. "Self-Reinforcing Electricity Price Dynamics under the Variable Market Premium Scheme." Energies, 13(20), 5350, DOI: 10.3390/en13205350. [Download Copy](https://www.mdpi.com/1996-1073/13/20/5350/pdf){:target="_blank"}
 
