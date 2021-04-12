@@ -18,8 +18,9 @@ I think we are not far from the point that abundant clean energy for all can bec
 
 #### <b>Most recent publications and talks:</b>
 
-* Klein, M., 2020. "Agent-based modeling and simulation of renewable energy market integration: the case of PV-battery systems." University of Stuttgart, Dissertation, DOI: 10.18419/opus-11132. [Download Copy](https://elib.uni-stuttgart.de/handle/11682/11149){:target="_blank"}
+* Xiao, M., Junne, T., Haas, J. & Klein, M., 2021. "Plummeting costs of renewables - Are energy scenarios lagging?" Energy Strategy Reviews, 35, 100636, DOI: 10.1016/j.esr.2021.100636. [Download Copy](https://www.sciencedirect.com/science/article/pii/S2211467X21000225){:target="_blank"}
 
+* Klein, M., 2020. "Agent-based modeling and simulation of renewable energy market integration: the case of PV-battery systems." University of Stuttgart, Dissertation, DOI: 10.18419/opus-11132. [Download Copy](https://elib.uni-stuttgart.de/handle/11682/11149){:target="_blank"}
 
 * Frey, U., Klein, M., Nienhaus, K. & Schimeczek, C., 2020. "Self-Reinforcing Electricity Price Dynamics under the Variable Market Premium Scheme." Energies, 13(20), 5350, DOI: 10.3390/en13205350. [Download Copy](https://www.mdpi.com/1996-1073/13/20/5350/pdf){:target="_blank"}
 
