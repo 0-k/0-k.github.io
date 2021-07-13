@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
@@ -35,7 +35,7 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (1.17)
+    kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
