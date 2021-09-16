@@ -22,6 +22,8 @@ url: https://www.martinklein.co/ # the base hostname & protocol for your site, e
 linkedin_username: martin-klein-
 github_username:  0-k
 
+google_analytics_id: UA-207131579-1
+
 # Build settings
 markdown: kramdown
 theme: minima
