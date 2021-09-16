@@ -7,7 +7,7 @@
     }
 </style>
 <div id="cookie-notice">
-    <span>I'd like to use third party cookies and scripts to improve the functionality of this website :)</span>
+    <span>I would like to use third party cookies and scripts to improve the functionality of this website. </span>
     <a id="cookie-notice-accept" class="btn-cookie-consent">Approve</a>
     <a href="/privacy" class="btn-cookie-consent-link">More info</a>
 </div>
@@ -37,9 +37,7 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
-        { % if jekyll.environment == "production" and site.google_analytics_id % }
-            { % include ga.js % }
-        { % endif % }
+            {% include ga.js %}
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
