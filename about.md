@@ -9,12 +9,11 @@ permalink: /about/
 Martin here.
 
 
-I am interested in all aspects of energy systems, in particular solar energy and how to get to net-zero emissions. Energy is vital to our modern life; providing it securely and reliably is imperative. 
+By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin. There I am working on energy scenarios in the context of long-term electricity grid planning. Prior to this, I wrote my PhD dissertation on energy system modelling. You can learn more about my research [here](/research/). I am interested in all aspects of energy systems, in particular solar energy and how to get to net-zero emissions. Energy is vital to our modern life; providing it securely and reliably is imperative. 
 
-I try to spend my life as aware and creative as possible.
-I enjoy [electronic music](/music/), manipulate [analogue photos with ink](/scratch/), and engage with [software](/vision/).
+Besides that, I try to spend my life as aware and creative as possible.
+I enjoy [electronic music](https://soundcloud.com/0_k/){:target="blank"}, manipulate [analogue photos with ink](/scratch/), and engage with [software](https://github.com/0-k){:target="blank"}.
 
-By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin. There I am working on energy scenarios in the context of long-term electricity grid planning. Prior to this, I wrote my PhD dissertation on energy system modelling. You can learn more about my research [here](/research/).
 
 
 <br>
