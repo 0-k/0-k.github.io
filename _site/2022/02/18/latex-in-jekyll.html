@@ -3,19 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Martin Klein | Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.</title>
+<title>LaTex in Jekyll | Martin Klein</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Martin Klein" />
+<meta property="og:title" content="LaTex in Jekyll" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions." />
-<meta property="og:description" content="Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions." />
-<link rel="canonical" href="https://www.martinklein.co//tag/tech/" />
-<meta property="og:url" content="https://www.martinklein.co//tag/tech/" />
+<meta name="description" content="MathJax allows you to include mathematics in your web pages, e.g. by using LaTeX. The formulae will be processed using JavaScript to produce HTML, SVG, or MathML equations for viewing in any modern browser." />
+<meta property="og:description" content="MathJax allows you to include mathematics in your web pages, e.g. by using LaTeX. The formulae will be processed using JavaScript to produce HTML, SVG, or MathML equations for viewing in any modern browser." />
+<link rel="canonical" href="https://www.martinklein.co//2022/02/18/latex-in-jekyll.html" />
+<meta property="og:url" content="https://www.martinklein.co//2022/02/18/latex-in-jekyll.html" />
 <meta property="og:site_name" content="Martin Klein" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-18T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Martin Klein" />
+<meta property="twitter:title" content="LaTex in Jekyll" />
 <script type="application/ld+json">
-{"headline":"Martin Klein","url":"https://www.martinklein.co//tag/tech/","@type":"WebPage","description":"Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.","@context":"https://schema.org"}</script>
+{"headline":"LaTex in Jekyll","dateModified":"2022-02-18T00:00:00+01:00","datePublished":"2022-02-18T00:00:00+01:00","url":"https://www.martinklein.co//2022/02/18/latex-in-jekyll.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.martinklein.co//2022/02/18/latex-in-jekyll.html"},"@type":"BlogPosting","description":"MathJax allows you to include mathematics in your web pages, e.g. by using LaTeX. The formulae will be processed using JavaScript to produce HTML, SVG, or MathML equations for viewing in any modern browser.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"><link type="application/atom+xml" rel="alternate" href="https://www.martinklein.co//feed.xml" title="Martin Klein" />
@@ -44,11 +46,55 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2>Tag: tech</h2>
-<ul>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-</ul>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline"><b>LaTex in Jekyll</b></h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-02-18T00:00:00+01:00" itemprop="datePublished">Feb 18, 2022
+      </time></p>
+  </header>
+
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="http://docs.mathjax.org/en/v2.7-latest/start.html#using-a-content-delivery-network-cdn">MathJax</a> allows you to include mathematics in your web pages, e.g. by using LaTeX. The formulae will be processed using JavaScript to produce HTML, SVG, or MathML equations for viewing in any modern browser.</p>
+
+<p>It’s very easy to include it into your Jekyll posts. Add the following script to <code class="language-plaintext highlighter-rouge">_layouts/post.html</code>:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">script</span> <span class="n">type</span><span class="o">=</span><span class="s2">"text/javascript"</span> <span class="n">async</span>
+  <span class="n">src</span><span class="o">=</span><span class="s2">"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/script&gt;`</span></code></pre></figure>
+
+<p>Voilà, you should be good to go. If you now type in your post:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="vg">$$</span>
+<span class="n">e</span><span class="o">^</span><span class="p">{</span><span class="n">i</span><span class="p">\</span><span class="n">pi</span><span class="p">}</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="vg">$$</span></code></pre></figure>
+
+<p>it will render nicely as <a href="https://en.wikipedia.org/wiki/Euler%27s_identity">Euler’s identity</a> as we all know it:
+\(e^{i\pi} + 1 = 0\).</p>
+
+<p>Cool! Note that <code class="language-plaintext highlighter-rouge">$$</code> is require at the beginning and end. It will signify the start and end of the formula formatting.</p>
+
+  </div>
+
+
+  <span>[
+  
+    
+    <a href="/tag/javascript"><code class="highligher-rouge"><nobr>javascript</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/jekyll"><code class="highligher-rouge"><nobr>jekyll</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/latex"><code class="highligher-rouge"><nobr>latex</nobr></code>&nbsp;</a>
+  
+  ]</span><a class="u-url" href="/2022/02/18/latex-in-jekyll.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

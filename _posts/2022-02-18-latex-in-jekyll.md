@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LaTex in Jekyll"
-tags: tech jekyll latex
+tags: javascript jekyll latex
 ---
 
 
@@ -23,10 +23,9 @@ e^{i\pi} + 1 = 0
 $$
 {% endhighlight %}
 
-it will render nicely as
+it will render nicely as [Euler's identity](https://en.wikipedia.org/wiki/Euler%27s_identity) as we all know it:
 $$
 e^{i\pi} + 1 = 0
 $$.
 
-Cool! By the way he formula I used here is [Euler's identity](https://en.wikipedia.org/wiki/Euler%27s_identity) - I still marvel at its mathematical beauty.
-Note that `$$` is require at the beginning and end. It will signify the start and end of the formula formatting.
+Cool! Note that `$$` is require at the beginning and end. It will signify the start and end of the formula formatting.
