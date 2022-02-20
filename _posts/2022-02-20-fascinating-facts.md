@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Collection of interesting facts"
+tags: tech
+---
+
+Shed for facts so good I certainly need to remember them. Updated regularly.
+
+* [90% of all the scientists that ever lived are alive today](https://futureoflife.org/2015/11/05/90-of-all-the-scientists-that-ever-lived-are-alive-today/?cn-reloaded=1)
