@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Shopify’s API via GraphQL in Python" />
 <script type="application/ld+json">
-{"headline":"Shopify’s API via GraphQL in Python","dateModified":"2022-03-01T00:00:00+01:00","datePublished":"2022-03-01T00:00:00+01:00","url":"https://www.martinklein.co//2022/03/01/shopify-graphql-python.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.martinklein.co//2022/03/01/shopify-graphql-python.html"},"@type":"BlogPosting","description":"GraphQL is a query language for APIs. It allows to define the structure of the requested data, which makes it possible to avoid returning overly large amounts of data.","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.martinklein.co//2022/03/01/shopify-graphql-python.html"},"url":"https://www.martinklein.co//2022/03/01/shopify-graphql-python.html","@type":"BlogPosting","headline":"Shopify’s API via GraphQL in Python","dateModified":"2022-03-01T00:00:00+01:00","description":"GraphQL is a query language for APIs. It allows to define the structure of the requested data, which makes it possible to avoid returning overly large amounts of data.","datePublished":"2022-03-01T00:00:00+01:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"><link type="application/atom+xml" rel="alternate" href="https://www.martinklein.co//feed.xml" title="Martin Klein" />
@@ -74,7 +74,7 @@
 <span class="n">request</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="nf">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">your_query</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="p">.</span><span class="nf">loads</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="nf">text</span><span class="p">))</span></code></pre></figure>
 
-<p>Set your API access keyword in <code class="language-plaintext highlighter-rouge">YOUR_ACCESS_TOKEN</code>. There are many examples given on how to structure the queries. Here is a simple example to get your 10 latest orders:</p>
+<p>Set your API access keyword in <code class="language-plaintext highlighter-rouge">YOUR_ACCESS_TOKEN</code>. There are many examples given on how to structure the queries. Here is a simple example to get your 10 latest orders and their respective IDs:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">your_query</span> <span class="o">=</span> <span class="s2">"""
 {

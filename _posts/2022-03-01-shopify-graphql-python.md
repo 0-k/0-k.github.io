@@ -20,7 +20,7 @@ request = requests.post(url, data=your_query, headers=headers)
 print(json.loads(request.text))
 {% endhighlight %}
 
-Set your API access keyword in `YOUR_ACCESS_TOKEN`. There are many examples given on how to structure the queries. Here is a simple example to get your 10 latest orders:
+Set your API access keyword in `YOUR_ACCESS_TOKEN`. There are many examples given on how to structure the queries. Here is a simple example to get your 10 latest orders and their respective IDs:
 
 {% highlight ruby %}
 your_query = """
