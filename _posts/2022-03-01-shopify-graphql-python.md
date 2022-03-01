@@ -12,7 +12,7 @@ GraphQL is a query language for APIs. It allows to define the structure of the r
 import requests
 import json
 
-url = 'https://exdelphi.myshopify.com/admin/api/2022-01/graphql.json'
+url = 'https://your-shops-name.myshopify.com/admin/api/2022-01/graphql.json'
 headers = {"Content-Type": "application/graphql",
            "X-Shopify-Access-Token": YOUR_ACCESS_TOKEN}
 
