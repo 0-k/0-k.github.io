@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Martin Klein" />
 <script type="application/ld+json">
-{"url":"https://www.martinklein.co//tag/json/","@type":"WebPage","headline":"Martin Klein","description":"Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.","@context":"https://schema.org"}</script>
+{"headline":"Martin Klein","url":"https://www.martinklein.co//tag/json/","@type":"WebPage","description":"Associate for energy scenarios at 50Hertz, Berlin. PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"><link type="application/atom+xml" rel="alternate" href="https://www.martinklein.co//feed.xml" title="Martin Klein" />
@@ -27,7 +27,12 @@
 
   
 </head>
-<body><header class="site-header" role="banner">
+<!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" data-site="MOZPFETM" defer></script>
+<!-- / Fathom -->
+
+
+  <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/"><b>⌂</b></a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -83,74 +88,6 @@
   </div>
 
 </footer>
-<style>
-    #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
-    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
-    @media (max-width: 767px) {
-        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
-        #cookie-notice a {position: relative; bottom: 4px;}
-    }
-</style>
-<div id="cookie-notice">
-    <span>I would like to use third party cookies and scripts to improve the functionality of this website. </span>
-    <a id="cookie-notice-accept" class="btn-cookie-consent">Approve</a>
-    <a href="/privacy" class="btn-cookie-consent-link">More info</a>
-</div>
-
-<script>
-    function createCookie(name,value,days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + value + expires + "; path=/";
-    }
-    function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-    function eraseCookie(name) {
-        createCookie(name,"",-1);
-    }
-
-    if(readCookie('cookie-notice-dismissed')=='true') {
-            /*This function will load script and call the callback once the script has loaded*/
-function loadScriptAsync(scriptSrc, callback) {
-    if (typeof callback !== 'function') {
-        throw new Error('Not a valid callback for async script load');
-    }
-    var script = document.createElement('script');
-    script.onload = callback;
-    script.src = scriptSrc;
-    document.head.appendChild(script);
-}
-
-/* This is the part where you call the above defined function and "call back" your code which gets executed after the script has loaded */
-loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=UA-207131579-1', function(){
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-207131579-1');
-})
-    } else {
-        document.getElementById('cookie-notice').style.display = 'block';
-    }
-    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed','true',31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
-    });
-
-</script>
-
-  </body>
+</body>
 
 </html>

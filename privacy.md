@@ -14,7 +14,7 @@ permalink: /privacy/
 <h3>I. Information about us as controllers of your data</h3>
 <p>The party responsible for this website (the "controller") for purposes of data protection law is:</p>
 <p><span>Martin Klein</span>
-	<br><span>Email: iwanttoreachmartin@gmail.com</span></p>
+	<br><span>Email: hi@martinklein.co</span></p>
 
 
 <h3>II. The rights of users and data subjects</h3>
@@ -31,36 +31,4 @@ permalink: /privacy/
 <h3>III. Information about the data processing</h3>
 <p>Your data processed when using our website will be deleted or blocked as soon as the purpose for its storage ceases to apply, provided the deletion of the same is not in breach of any statutory storage obligations or unless otherwise stipulated below.</p>
 
-<h4>OpenStreetMap</h4>
-<p>For directions on our site, we use OpenStreetMap, a service of the OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, United Kingdom, hereinafter referred to as "OpenStreetMap".</p>
-<p>When you access one of our Internet pages that includes the OpenStreetMap service, OpenStreetMap stores a cookie on your terminal device via your browser. This processes your user settings and user data for the purpose of displaying the page or guaranteeing the functionality of the OpenStreetMap service. Through this processing, OpenStreetMap can recognize the website from which your request has been sent and to which IP address the directions should be transmitted.&nbsp;</p>
-<p>The legal basis for collecting and processing this information is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
-<p>If you do not agree to this processing, you have the option of preventing the installation of cookies by making the appropriate settings in your browser. Further details can be found in the section about cookies above.</p>
-<p>OpenStreetMap offers further information about its data collection and processing as well your rights and your options for protecting your privacy at this link:</p>
-<p><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">https://wiki.osmfoundation.org/wiki/Privacy_Policy</a>.</p>
-
-<h4>Soundcloud</h4>
-<p>For music on our site, we use Soundcloud, a service of SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Germany hereinafter referred to as "Soundcloud".</p>
-<p>When you access one of our Internet pages that includes the Soundcloud service, Soundcloud stores a cookie on your terminal device via your browser. This processes your user settings and user data for the purpose of displaying the page or guaranteeing the functionality of the Soundcloud service. Through this processing, Soundcloud can recognize the website from which your request has been sent and to which IP address the music should be transmitted.&nbsp;</p>
-<p>The legal basis for collecting and processing this information is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
-<p>If you do not agree to this processing, you have the option of preventing the installation of cookies by making the appropriate settings in your browser. Further details can be found in the section about cookies above.</p>
-<p>Soundcloud offers further information about its data collection and processing as well your rights and your options for protecting your privacy at this link:</p>
-<p><a href="https://soundcloud.com/pages/privacy" target="_blank" rel="noopener">https://soundcloud.com/pages/privacy</a>.</p>
-
-<h4>YouTube</h4>
-<p>We use YouTube on our website. This is a video portal operated by YouTube LLC, 901 Cherry Ave, 94066 San Bruno, CA, USA, hereinafter referred to as "YouTube".</p>
-<p>YouTube is a subsidiary of Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, hereinafter referred to as "Google".</p>
-<p>Through certification according to the EU-US Privacy Shield</p>
-<p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
-<p>Google and its subsidiary YouTube guarantee that they will follow the EU's data protection regulations when processing data in the United States.</p>
-<p>We use YouTube in its advanced privacy mode to show you videos. The legal basis is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in improving the quality of our website. According to YouTube, the advanced privacy mode means that the data specified below will only be transmitted to the YouTube server if you actually start a video.</p>
-<p>Without this mode, a connection to the YouTube server in the USA will be established as soon as you access any of our webpages on which a YouTube video is embedded.</p>
-<p>This connection is required in order to be able to display the respective video on our website within your browser. YouTube will record and process at a minimum your IP address, the date and time the video was displayed, as well as the website you visited. In addition, a connection to the DoubleClick advertising network of Google is established.</p>
-<p>If you are logged in to YouTube when you access our site, YouTube will assign the connection information to your YouTube account. To prevent this, you must either log out of YouTube before visiting our site or make the appropriate settings in your YouTube account.</p>
-<p>For the purpose of functionality and analysis of usage behavior, YouTube permanently stores cookies on your device via your browser. If you do not agree to this processing, you have the option of preventing the installation of cookies by making the appropriate settings in your browser. Further details can be found in the section about cookies above.</p>
-<p>Further information about the collection and use of data as well as your rights and protection options in Google's privacy policy found at</p>
-<p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
-
 <p><a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener">Model Data Protection Statement</a> for <a href="https://www.ratgeberrecht.eu/" target="_blank">Anwaltskanzlei Weiß &amp; Partner</a></p>
-
-
