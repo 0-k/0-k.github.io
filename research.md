@@ -18,7 +18,11 @@ I think we are not far from the point that abundant clean energy for all can bec
 
 #### <b>Most recent publications and talks:</b>
 
+* Klein, M., 2022. "Use of energy scenarios at a TSO in Germany – recent developments and opportunities for research." ENERDAY 2022, 16th International Conference on Energy Economics and Technology, Dresden, Germany. (keynote speaker)
+
 * Xiao, M., Junne, T., Haas, J. & Klein, M., 2021. "Plummeting costs of renewables - Are energy scenarios lagging?" Energy Strategy Reviews, 35, 100636, DOI: 10.1016/j.esr.2021.100636. [Download Copy](https://www.sciencedirect.com/science/article/pii/S2211467X21000225){:target="_blank"}
+
+* Nienhaus, K., Klein, M., Schimeczek, C., Deissenroth-Uhrig, M., Frey, U., 2021. "Self-reinforcing deflationary price dynamics under the variable market premium scheme." 1st International Association for Energy Economics (IAEE) Online Conference (peer-reviewed submission)
 
 * Klein, M., 2020. "Agent-based modeling and simulation of renewable energy market integration: the case of PV-battery systems." University of Stuttgart, Dissertation, DOI: 10.18419/opus-11132. [Download Copy](https://elib.uni-stuttgart.de/handle/11682/11149){:target="_blank"}
 
@@ -34,7 +38,7 @@ I think we are not far from the point that abundant clean energy for all can bec
 
 * Frey, U., Klein, M. & Deissenroth, M., 2019. "Modelling complex investment decisions in Germany for Renewables with different machine learning algorithms." Environmental Modelling and Software, 118, pp. 61-75, DOI: 10.1016/j.envsoft.2019.03.006. [Link](https://www.sciencedirect.com/science/article/pii/S1364815218304353){:target="_blank"}
 
-* Klein, M., Deissenroth, M. & Schimeczek, C., 2019. "Mapping the challenge of renewable electricity market integration – Multi-scenario analysis with an agent-based electricity market model." IEWT, Vienna, Austria. [Download Copy](https://iewt2019.eeg.tuwien.ac.at/download/contribution/abstract/196/196_abstract_20181107_171432.pdf){:target="_blank"}
+* Klein, M., Deissenroth, M., Schimeczek, C., 2019. "Mapping the challenge of renewable electricity market integration – Multi-scenario analysis with an agent-based electricity market model." IEWT, Vienna, Austria. [Download Copy](https://iewt2019.eeg.tuwien.ac.at/download/contribution/abstract/196/196_abstract_20181107_171432.pdf){:target="_blank"}
 
 * Klein, M., Xiao, M. & Junne, T., 2018. "Benchmarking VRE cost assumptions with awarded renewable energy auctions - A comparative assessment of global energy scenarios." Energy Scenarios Conference, Karlsruhe, Germany. [Download Copy](https://zenodo.org/record/1435842){:target="_blank"}
 
