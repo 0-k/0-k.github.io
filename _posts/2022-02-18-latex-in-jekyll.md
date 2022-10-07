@@ -28,4 +28,4 @@ $$
 e^{i\pi} + 1 = 0
 $$.
 
-Cool! Note that `$$` is require at the beginning and end. It will signify the start and end of the formula formatting.
+Cool! Note that `$$` is required at the beginning and end. It will signify the start and end of the formula formatting.
