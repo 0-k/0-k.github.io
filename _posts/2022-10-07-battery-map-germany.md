@@ -2,6 +2,10 @@
 layout: post
 title: Where are the batteries?
 tags: python
+image:
+  path: /data/preview/battery-map-germany.webp
+  height: 100
+  width: 100
 ---
 
 We are entering the age of megawatt-scale batteries. I was wondering how far we have come in Germany, so I created a map showing the latest projects.
