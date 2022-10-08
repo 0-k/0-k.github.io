@@ -3,7 +3,7 @@ layout: post
 title: Where are the batteries?
 tags: python
 image:
-  path: /data/preview/battery-map-germany.webp
+  path: /data/preview/battery-map-germany.jpg
   height: 100
   width: 100
 ---
