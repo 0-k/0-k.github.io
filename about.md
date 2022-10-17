@@ -4,20 +4,18 @@ title: ABOUT
 permalink: /about/
 ---
 
-`hello world`
+Hello World! Thanks for visiting my site! 
 
-Martin here.
+By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin, where I am working on energy scenarios for long-term electricity grid planning. Before this, I wrote my PhD dissertation on energy system modeling. You can learn more about my research [here](/research/). I am interested in all aspects of energy systems, particularly solar energy, and how to get to net-zero emissions. Energy is vital to our modern life; providing it securely and reliably is imperative.
 
-By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin, where I am working on energy scenarios for long-term electricity grid planning. Before this, I wrote my PhD dissertation on energy system modeling. You can learn more about my research [here](/research/). I am interested in all aspects of energy systems, particularly solar energy, and how to get to net-zero emissions. Energy is vital to our modern life; providing it securely and reliably is imperative. 
+![Me in front of a high medival tower in Bologna, Italy](/data/martin2.jpg)
 
-Besides that, I try to spend my life as aware and creative as possible.
-I enjoy [electronic music](https://soundcloud.com/0_k/){:target="blank"}, manipulating [analog photos with ink](/scratch/), and engaging with [software](https://github.com/0-k){:target="blank"}.
-
+> This is me in Bologna, Italy. These large towers were build in medival times to, guess what, impress people. Still works for me. 
 
 
-<br>
+I try to spend my life as aware and creative as possible. I enjoy [electronic music](https://soundcloud.com/0_k/){:target="blank"}, manipulating [analog photos with ink](/scratch/), and engaging with [software](https://github.com/0-k){:target="blank"}.
 
-You can find me on other sites:
+[Contact me](/contact) if you find the content of this site interesting or want to learn more. You can also find me on other sites:
 
 
 * [LinkedIn](https://www.linkedin.com/in/martin-klein-){:target="blank"} — professional and all
