@@ -4,7 +4,7 @@ title: ABOUT
 permalink: /about/
 ---
 
-Hello World! Thanks for visiting my site! 
+# Hello World! Thanks for visiting my site! 
 
 By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin, where I am working on energy scenarios for long-term electricity grid planning. Before this, I wrote my PhD dissertation on energy system modeling. You can learn more about my research [here](/research/). I am interested in all aspects of energy systems, particularly solar energy, and how to get to net-zero emissions. Energy is vital to our modern life; providing it securely and reliably is imperative.
 

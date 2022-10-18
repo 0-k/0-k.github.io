@@ -4,7 +4,9 @@ title: SCRATCH
 permalink: /scratch/
 ---
 
+# Scratch images
 
+These are analog photos manipulated with colored ink.
 
 
 

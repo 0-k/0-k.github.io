@@ -4,6 +4,8 @@ title: CONTACT
 permalink: /contact/
 ---
 
+# Contact
+
 The easiest way to contact me is via email (I will respond): [hi@martinklein.co](mailto:hi@martinklein.co)
 
 Alternatively, you can find me on these sites:

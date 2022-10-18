@@ -4,6 +4,7 @@ title: RESEARCH
 permalink: /research/
 ---
 
+# Research
 
 I wrote my PhD dissertation on agent-based modeling of electricity markets, trying to understand and model what the transition towards net-zero emission energy systems can look like.
 
