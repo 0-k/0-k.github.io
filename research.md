@@ -19,7 +19,7 @@ I think we are not far from the point that abundant clean energy for all can bec
 
 #### <b>Most recent publications and talks:</b>
 
-* Klein, M., 2022. "Use of energy scenarios at a TSO in Germany – recent developments and opportunities for research." ENERDAY 2022, 16th International Conference on Energy Economics and Technology, Dresden, Germany. (keynote speaker)
+* Klein, M., 2022. "Use of energy scenarios at a TSO in Germany – recent developments and opportunities for research." ENERDAY 2022, 16th International Conference on Energy Economics and Technology, Dresden, Germany. (keynote speaker) [Presentation](https://tu-dresden.de/bu/wirtschaft/bwl/ee2/ressourcen/dateien/enerday-2022/presentations/Klein-Martin.pdf){:target="_blank"}
 
 * Xiao, M., Junne, T., Haas, J. & Klein, M., 2021. "Plummeting costs of renewables - Are energy scenarios lagging?" Energy Strategy Reviews, 35, 100636, DOI: 10.1016/j.esr.2021.100636. [Download Copy](https://www.sciencedirect.com/science/article/pii/S2211467X21000225){:target="_blank"}
 

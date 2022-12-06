@@ -10,7 +10,7 @@ By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="bla
 
 ![Me in front of a high medieval tower in Bologna, Italy](/data/martin2.jpg)
 
-> This is me in Bologna, Italy. These large towers were build in medival times to, guess what, impress people. Still works for me. 
+> This is me in Bologna, Italy. These large towers were build in medieval times to, guess what, impress people. Still works for me. 
 
 
 I try to spend my life as aware and creative as possible. I enjoy [electronic music](https://soundcloud.com/0_k/){:target="blank"}, manipulating [analog photos with ink](/scratch/), and engaging with [software](https://github.com/0-k){:target="blank"}.
