@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.martinklein.co/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.martinklein.co/" rel="alternate" type="text/html" /><updated>2023-01-01T22:51:32+01:00</updated><id>https://www.martinklein.co/feed.xml</id><title type="html">Martin Klein</title><subtitle>PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.</subtitle><entry><title type="html">Where are the batteries?</title><link href="https://www.martinklein.co/2022/10/07/battery-map-germany.html" rel="alternate" type="text/html" title="Where are the batteries?" /><published>2022-10-07T00:00:00+02:00</published><updated>2022-10-07T00:00:00+02:00</updated><id>https://www.martinklein.co/2022/10/07/battery-map-germany</id><content type="html" xml:base="https://www.martinklein.co/2022/10/07/battery-map-germany.html">&lt;p&gt;We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.martinklein.co/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.martinklein.co/" rel="alternate" type="text/html" /><updated>2023-05-02T23:19:38+02:00</updated><id>https://www.martinklein.co/feed.xml</id><title type="html">Martin Klein</title><subtitle>PhD in energy systems analysis. Thinking about ways to get the economy to net-zero emissions.</subtitle><entry><title type="html">Where are the batteries?</title><link href="https://www.martinklein.co/2022/10/07/battery-map-germany.html" rel="alternate" type="text/html" title="Where are the batteries?" /><published>2022-10-07T00:00:00+02:00</published><updated>2022-10-07T00:00:00+02:00</updated><id>https://www.martinklein.co/2022/10/07/battery-map-germany</id><content type="html" xml:base="https://www.martinklein.co/2022/10/07/battery-map-germany.html">&lt;p&gt;We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.&lt;/p&gt;
 
 &lt;iframe src=&quot;/data/battery_map_germany.html&quot; height=&quot;600&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
 
@@ -9,63 +9,14 @@ I was surprised to find already almost 1 GW of large-scale battery capacity dist
 As far as I know, the batteries are still mainly operating in the balancing markets, but some projects are adjacent to significant wind and solar projects, so that you could use them for feed-in management.&lt;/p&gt;
 
 &lt;p&gt;The data (which has an open &lt;a href=&quot;https://www.govdata.de/dl-de/by-2-0&quot;&gt;license&lt;/a&gt;, by the way) was pretty easy to filter and retrieve. You can check out the source code &lt;a href=&quot;https://github.com/0-k/energy_maps&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, where I described the data operations in more detail. 
-The project uses the &lt;a href=&quot;http://python-visualization.github.io/folium/&quot; target=&quot;_blank&quot;&gt;folium&lt;/a&gt; package, a nice Python wrapper around leaflet.js.&lt;/p&gt;</content><author><name></name></author><category term="python" /><summary type="html">We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.martinklein.co/data/preview/battery-map-germany.jpg" /><media:content medium="image" url="https://www.martinklein.co/data/preview/battery-map-germany.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Interviewing GPT-3 - On science</title><link href="https://www.martinklein.co/2022/07/04/interview-gpt3-science.html" rel="alternate" type="text/html" title="Interviewing GPT-3 - On science" /><published>2022-07-04T00:00:00+02:00</published><updated>2022-07-04T00:00:00+02:00</updated><id>https://www.martinklein.co/2022/07/04/interview-gpt3-science</id><content type="html" xml:base="https://www.martinklein.co/2022/07/04/interview-gpt3-science.html">&lt;p&gt;I interviewed GPT-3, an extensive &lt;a href=&quot;https://openai.com/api/&quot;&gt;language model&lt;/a&gt; by OpenAI, and asked it some questions on science and collaboration.
-Welcome to my first machine interview. We have come a long way.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://futureoflife.org/2015/11/05/90-of-all-the-scientists-that-ever-lived-are-alive-today/&quot;&gt;90% of all the scientists that ever lived are alive today&lt;/a&gt;. GPT-3, is scientific discovery accelerating?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3&lt;/em&gt;: That is a difficult question to answer definitively. However, there are some indications that scientific discovery may be accelerating. For example, the number of scientific papers published each year has been increasing steadily for several decades, and the rate of increase appears to be accelerating. In addition, the number of patents issued each year has also been growing steadily. The rate of growth seems to be accelerating. Finally, the amount of money spent on research and development has been increasing steadily for many years, indicating that more and more resources are being devoted to scientific discovery.
- &lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Is this enough to argue that we are getting better at discovering new and valuable things?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; One problem is that measuring the rate of scientific discovery is difficult. Many important discoveries are made by accident, and it is often hard to say how long it would have taken to make those discoveries if we had not been looking for them. In addition, it is often hard to say how significant a particular finding is. Some discoveries may be significant but not widely known, while others may be widely known but not very important.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What would be an example of scientific progress that was unreachable 100 years ago?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; Some examples of scientific progress that was unreachable 100 years ago include the discovery of the structure of DNA, the development of vaccines for diseases like polio and smallpox, the understanding of the nature of the universe, and the development of computers and the internet.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Has the internet made the body of science one large cyber-connected being?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; The internet has definitely made the body of science more interconnected. Scientists can now communicate and collaborate with each other much more easily than they could in the past. They can also access a vast amount of information that is available online. However, it is important to remember that not all scientists have equal access to the internet, and that some areas of science are still very isolated from each other. In some ways, the body of science can be seen as an extensive, interconnected system. For example, scientists build on each other’s work, share data and ideas, and collaborate on research projects. In other ways, the body of science may be more like a collection of individual pieces that are only loosely connected.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How can we connect those pieces more firmly then?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; One possibility is to encourage more collaboration and communication between scientists. Another option is to develop better ways of organizing and storing scientific data to be more easily accessed and used by other scientists.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How can we achieve that? Who do we handle and share data better?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; There are several ways to handle and share data better. One possibility is to develop better methods for storing, organizing, and sharing data. Another possibility is to create more opportunities for scientists to collaborate. One way to achieve better data sharing would be to develop standard formats for storing and sharing data. Another way would be to create incentives for scientists to share their data.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Can you give an example?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;GPT-3:&lt;/em&gt; One example of an incentive for scientists to share their data is the open-access movement. The open-access movement is a push for scientific journals to make their articles available online for anyone to read, without requiring a subscription. This would allow any scientist with an internet connection to access the latest research, regardless of where they work or what resources they have. Another example is the creation of online platforms allowing scientists to share data and ideas.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This interview has been edited for length and clarity.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="tech" /><category term="gpt" /><category term="interview" /><summary type="html">I interviewed GPT-3, an extensive language model by OpenAI, and asked it some questions on science and collaboration. Welcome to my first machine interview. We have come a long way.</summary></entry><entry><title type="html">Shopify’s API via GraphQL in Python</title><link href="https://www.martinklein.co/2022/03/01/shopify-graphql-python.html" rel="alternate" type="text/html" title="Shopify’s API via GraphQL in Python" /><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><id>https://www.martinklein.co/2022/03/01/shopify-graphql-python</id><content type="html" xml:base="https://www.martinklein.co/2022/03/01/shopify-graphql-python.html">&lt;p&gt;GraphQL is a query language for APIs. It allows to define the structure of the requested data, which makes it possible to avoid returning overly large amounts of data.&lt;/p&gt;
+The project uses the &lt;a href=&quot;http://python-visualization.github.io/folium/&quot; target=&quot;_blank&quot;&gt;folium&lt;/a&gt; package, a nice Python wrapper around leaflet.js.&lt;/p&gt;</content><author><name></name></author><category term="python" /><category term="energy" /><summary type="html">We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.martinklein.co/data/preview/battery-map-germany.jpg" /><media:content medium="image" url="https://www.martinklein.co/data/preview/battery-map-germany.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Shopify’s API via GraphQL in Python</title><link href="https://www.martinklein.co/2022/03/01/shopify-graphql-python.html" rel="alternate" type="text/html" title="Shopify’s API via GraphQL in Python" /><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><id>https://www.martinklein.co/2022/03/01/shopify-graphql-python</id><content type="html" xml:base="https://www.martinklein.co/2022/03/01/shopify-graphql-python.html">&lt;p&gt;GraphQL is a query language for APIs. It allows to define the structure of the requested data, which makes it possible to avoid returning overly large amounts of data.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://shopify.dev/api/admin-graphql#top&quot;&gt;Shopify’s Admin API can be queried with GraphQL&lt;/a&gt;. GraphQL queries are executed by sending POST HTTP requests. This can be achieved in Python with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;requests&lt;/code&gt; module like so:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://your-shops-name.myshopify.com/admin/api/2022-01/graphql.json'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;https://your-shops-name.myshopify.com/admin/api/2022-01/graphql.json&apos;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;application/graphql&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
            &lt;span class=&quot;s2&quot;&gt;&quot;X-Shopify-Access-Token&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;YOUR_ACCESS_TOKEN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
@@ -90,13 +41,13 @@ Welcome to my first machine interview. We have come a long way.&lt;/p&gt;
 
 &lt;p&gt;Converting a pandas DataFrame to a JSON object is straight-forward:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'index'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;index&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;orient&lt;/code&gt; parameter controls how the &lt;a href=&quot;https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html&quot;&gt;data is formatted&lt;/a&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index&lt;/code&gt; worked well for my use cases so far.&lt;/p&gt;
 
 &lt;p&gt;The other conversion direction is very similar:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_json_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'index'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_json_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;index&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you receive your JSON as a string in Python (e.g. through a request from an API), you must first convert the string into a JSON object for the above call to work:&lt;/p&gt;
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where are the batteries?
+title: Why grids are the largest flexibility option
 tags: python energy
 image:
   path: /data/preview/battery-map-germany.jpg
