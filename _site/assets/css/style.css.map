@@ -4,9 +4,9 @@
 	"sources": [
 		"style.scss",
 		"_sass/minima.scss",
-		"../../.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"../../.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"../../.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n\n.image-quer\n{\n    margin: 0 auto;\n    display: block;\n}\n\n",
