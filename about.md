@@ -6,11 +6,7 @@ permalink: /about/
 
 # Hello World! Thanks for visiting my site! 
 
-By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin, where I am working on long-term electricity grid planning. My work focuses on developing energy scenarios and using energy system modeling to explore different options for achieving a secure and reliable energy supply. Before this, I wrote my [PhD dissertation](/research/) on the integration of solar power into the electricity system, and I continue to be interested in exploring the potential of solar energy to help us reach net-zero emissions.
-
-![Me in front of a high medieval tower in Bologna, Italy](/data/martin2.jpg)
-
-> This is me in Bologna, Italy. These large towers were build in medieval times to, guess what, impress people. Still works for me. 
+By day, I am an associate at [50Hertz](https://www.50hertz.com/en/){:target="blank"}, a transmission system operator based in Berlin, where I am working on long-term electricity grid planning. My work focuses on developing energy scenarios and using energy system modeling to explore different options for achieving a secure and reliable energy supply. Before this, I wrote my [PhD dissertation](/research/) on the integration of solar power into the electricity system, and I continue to be interested in exploring the potential of solar energy to help us reach net-zero emissions. 
 
 In my free time, I enjoy experimenting with [electronic music](https://soundcloud.com/0_k/){:target="blank"}, manipulating [analog photos with ink](/scratch/), and engaging with [software](https://github.com/0-k){:target="blank"}. I am passionate about using my knowledge and skills to make a positive impact on the world around me, and I am always looking for new ways to learn and grow.
 
