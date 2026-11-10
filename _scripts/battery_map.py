@@ -58,7 +58,29 @@ TECHNOLOGY = {
 }
 NATURAL_PERSON = 518
 
-COLORS = {"operating": "#2a78d6", "planned": "#eb6834", "mothballed": "#8a8a86"}
+# Same colours as in the 2022 map; "Other" is new (redox flow, nickel-based,
+# other and unspecified technologies were below the 1 MW filter back then).
+TECHNOLOGY_GROUP = {
+    "Lithium-ion": "Li-ion",
+    "Lead-acid": "Lead",
+    "High-temperature": "High-temperature",
+}
+COLORS = {
+    "Li-ion": "#8541f2",
+    "Lead": "#525354",
+    "High-temperature": "#a32727",
+    "Other": "#199e70",
+}
+
+# Circle radius in pixels = RADIUS_FACTOR * MW ** RADIUS_EXPONENT.
+# The 2022 map scaled the radius linearly with power (exponent 1), which
+# exaggerates large units: the area grows with the square of the power.
+# Scaling the area with power (exponent 0.5) is correct on paper, but readers
+# tend to underestimate the area of large circles. Flannery's perceptual
+# scaling (exponent 0.57) sits in between and compensates for that.
+RADIUS_EXPONENT = 0.57
+RADIUS_FACTOR = 1.4
+RADIUS_MIN = 2.5
 
 
 def download():
@@ -110,6 +132,7 @@ def prepare(units):
 
     data["status"] = data["BetriebsStatusName"].map(STATUS)
     data["technology"] = data["Batterietechnologie"].map(TECHNOLOGY).fillna("Not specified")
+    data["technology_group"] = data["technology"].map(TECHNOLOGY_GROUP).fillna("Other")
     data["power_mw"] = data["Nettonennleistung"] / 1000
     data["energy_mwh"] = data["NutzbareSpeicherkapazitaet"] / 1000
     data["e_to_p"] = data["energy_mwh"] / data["power_mw"]
@@ -203,6 +226,7 @@ def map_records(data):
                 "operator": unit["AnlagenbetreiberName"] or "",
                 "place": ", ".join(p for p in (unit["Ort"], unit["Bundesland"]) if p),
                 "tech": unit["technology"],
+                "group": unit["technology_group"],
             }
         )
     return records
@@ -223,10 +247,17 @@ MAP_TEMPLATE = Template(
   .legend h1 { font-size: 14px; margin: 0 0 2px; }
   .legend p { margin: 0 0 6px; color: #52514e; font-size: 12px; }
   .legend label { display: block; cursor: pointer; white-space: nowrap; }
-  .legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 4px 0 2px; }
-  .legend .sizes { margin-top: 6px; display: flex; align-items: center; gap: 8px; font-size: 12px; color: #52514e; }
-  .legend .sizes span { display: inline-block; border: 1px solid #52514e; border-radius: 50%; vertical-align: middle; margin-right: 3px; }
-  @media (max-width: 500px) { .legend .sizes, .legend p { display: none; } .legend { font-size: 12px; padding: 6px 8px; } .legend h1 { font-size: 12px; } }
+  .legend .dot { display: inline-block; box-sizing: border-box; width: 11px; height: 11px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: -1px; border: 2px solid #52514e; }
+  .legend .dot.operating { background: #52514e; }
+  .legend .dot.mothballed { border-style: dotted; }
+  .legend .techs { margin-top: 6px; }
+  .legend .techs div { white-space: nowrap; }
+  .legend .techs .dot { border: 0; }
+  .sizes { position: relative; font-size: 12px; color: #52514e; }
+  .sizes span { position: absolute; left: 0; bottom: 0; box-sizing: border-box; border: 1px solid #52514e; border-radius: 50%; }
+  .sizes em { position: absolute; font-style: normal; white-space: nowrap; border-top: 1px solid #b5b4ae; padding-left: 22px; text-align: right; line-height: 0; }
+  .sizes em b { font-weight: normal; background: #fff; padding-left: 3px; }
+  @media (max-width: 500px) { .legend.size-legend, .legend p, .legend .techs .count { display: none; } .legend { font-size: 12px; padding: 6px 8px; } .legend h1 { font-size: 12px; } }
   .leaflet-popup-content { font-size: 13px; line-height: 1.5; }
   .leaflet-popup-content b.title { font-size: 14px; }
 </style>
@@ -238,9 +269,10 @@ MAP_TEMPLATE = Template(
 var UNITS = $units;
 var COLORS = $colors;
 var TOTALS = $totals;
+var TECH_COUNTS = $tech_counts;
 
-var map = L.map('map', {preferCanvas: true, zoomSnap: 0.25});
-map.fitBounds([[47.3, 5.9], [55.05, 15.05]]);
+var map = L.map('map', {preferCanvas: true, zoomSnap: 0.5});
+map.fitBounds([[47.2, 5.9], [55.3, 15.05]]);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | ' +
@@ -253,7 +285,7 @@ function esc(text) {
   div.textContent = text == null ? '' : String(text);
   return div.innerHTML;
 }
-function radius(mw) { return Math.max(3, 1.1 * Math.sqrt(mw)); }
+function radius(mw) { return Math.max($radius_min, $radius_factor * Math.pow(mw, $radius_exponent)); }
 function fmt(value) { return value.toLocaleString('en-US', {maximumFractionDigits: 1}); }
 
 function popup(u) {
@@ -271,16 +303,21 @@ function popup(u) {
   return rows.join('<br>');
 }
 
+// Colour = technology. Status: filled = operating, ring = planned, dotted ring = mothballed.
+var STYLE = {
+  operating: {weight: 1, fillOpacity: 0.6},
+  planned: {weight: 1.5, fillOpacity: 0.08},
+  mothballed: {weight: 1.5, fillOpacity: 0.08, dashArray: '2 3'}
+};
 // planned first, so that operating units are drawn on top
 var order = ['planned', 'mothballed', 'operating'];
 var layers = {};
 order.forEach(function (status) {
   layers[status] = L.layerGroup().addTo(map);
   UNITS.filter(function (u) { return u.status === status; }).forEach(function (u) {
-    L.circleMarker([u.lat, u.lon], {
-      radius: radius(u.mw), color: COLORS[status], weight: 1.5,
-      fillColor: COLORS[status], fillOpacity: status === 'planned' ? 0.25 : 0.55
-    }).bindPopup(popup(u), {maxWidth: 340}).addTo(layers[status]);
+    var style = {radius: radius(u.mw), color: COLORS[u.group], fillColor: COLORS[u.group]};
+    for (var key in STYLE[status]) { style[key] = STYLE[status][key]; }
+    L.circleMarker([u.lat, u.lon], style).bindPopup(popup(u), {maxWidth: 340}).addTo(layers[status]);
   });
 });
 
@@ -290,13 +327,15 @@ legend.onAdd = function () {
   var html = '<h1>Batteries &ge; 1 MW in Germany</h1><p>as of $retrieved_long</p>';
   ['operating', 'planned', 'mothballed'].forEach(function (status) {
     html += '<label><input type="checkbox" checked data-status="' + status + '">' +
-      '<span class="dot" style="background:' + COLORS[status] + '"></span>' +
+      '<span class="dot ' + status + '"></span>' +
       status.charAt(0).toUpperCase() + status.slice(1) + ' &ndash; ' + TOTALS[status] + '</label>';
   });
-  html += '<div class="sizes">' + [10, 100, 1000].map(function (mw) {
-    var d = 2 * radius(mw);
-    return '<div><span style="width:' + d + 'px;height:' + d + 'px"></span>' + mw + ' MW</div>';
-  }).join('') + '</div>';
+  html += '<div class="techs">';
+  Object.keys(COLORS).forEach(function (group) {
+    html += '<div><span class="dot" style="background:' + COLORS[group] + '"></span>' + group +
+      '<span class="count"> (' + (TECH_COUNTS[group] || 0) + ')</span></div>';
+  });
+  html += '</div>';
   div.innerHTML = html;
   L.DomEvent.disableClickPropagation(div);
   div.addEventListener('change', function (event) {
@@ -306,6 +345,24 @@ legend.onAdd = function () {
   return div;
 };
 legend.addTo(map);
+
+// nested circles as size legend
+var sizeLegend = L.control({position: 'bottomleft'});
+sizeLegend.onAdd = function () {
+  var div = L.DomUtil.create('div', 'legend size-legend');
+  var sizes = [1000, 100, 10];
+  var max = 2 * radius(sizes[0]);
+  var html = '<div class="sizes" style="width:' + (max + 62) + 'px;height:' + max + 'px">';
+  sizes.forEach(function (mw) {
+    var d = 2 * radius(mw);
+    html += '<span style="width:' + d + 'px;height:' + d + 'px;left:' + (max - d) / 2 + 'px"></span>' +
+      '<em style="left:' + max / 2 + 'px;bottom:' + d + 'px;width:' + (max / 2 + 62) + 'px;box-sizing:border-box"><b>' +
+      mw.toLocaleString('en-US') + ' MW</b></em>';
+  });
+  div.innerHTML = html + '</div>';
+  return div;
+};
+sizeLegend.addTo(map);
 </script>
 </body>
 </html>
@@ -326,6 +383,10 @@ def write_map(data, retrieved):
         .replace("</", "<\\/"),
         colors=json.dumps(COLORS),
         totals=json.dumps(totals),
+        tech_counts=json.dumps(data["technology_group"].value_counts().to_dict()),
+        radius_exponent=RADIUS_EXPONENT,
+        radius_factor=RADIUS_FACTOR,
+        radius_min=RADIUS_MIN,
         retrieved_long=f"{retrieved.day} {retrieved:%B %Y}",
     )
     MAP_FILE.write_text(html, encoding="utf-8")
@@ -375,7 +436,7 @@ def write_chart(data, retrieved, first_year=2016):
         partial = year == retrieved.year
         label = f"{year}{'*' if partial else ''}"
         parts.append(
-            f'<path d="{path}" fill="{COLORS["operating"]}"><title>{label}: {value:,.0f} MW'
+            f'<path d="{path}" fill="{COLORS["Li-ion"]}"><title>{label}: {value:,.0f} MW'
             f"</title></path>"
             f'<text x="{x + bar_w / 2:.1f}" y="{height - 12}" text-anchor="middle" '
             f'fill="#52514e">{label}</text>'

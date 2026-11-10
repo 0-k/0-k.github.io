@@ -14,7 +14,9 @@ Four years ago, I [mapped all large batteries in Germany](/2022/10/07/battery-ma
 
 [View in full-screen](/data/battery_map_germany_2026.html){:target="_blank"}
 
-The map again shows all battery projects with a rated power of at least 1 MW according to the [Marktstammdatenregister](https://www.marktstammdatenregister.de/){:target="_blank" rel="noopener"}, as of 10 November 2026. Blue circles are in operation, orange ones are registered as planned. The circle area scales with the rated power, and you can switch each group on and off in the legend. Click on a circle for details.
+The map again shows all battery projects with a rated power of at least 1 MW according to the [Marktstammdatenregister](https://www.marktstammdatenregister.de/){:target="_blank" rel="noopener"}, as of 10 November 2026. The colors show the battery technology, as in the 2022 map. Filled circles are in operation, rings are registered as planned, and you can switch each group on and off in the legend. Click on a circle for details.
+
+One thing has changed: the size of the circles. In 2022, the radius grew linearly with the rated power, which made large batteries look far too dominant, as [Stefan rightly pointed out](https://github.com/0-k/energy_maps/issues/1){:target="_blank" rel="noopener"}. Scaling the area with power is the textbook fix, but we tend to underestimate the area of large circles. So the map now uses a middle ground from cartography (Flannery's perceptual scaling): the radius grows with power to the 0.57, slightly faster than the square root.
 
 ## From megawatts to gigawatts
 
