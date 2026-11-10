@@ -1,5 +1,5 @@
 *cache
 .DS_Store
-Gemfile.lock
-.idea
 *DS_Store
+.idea
+_site

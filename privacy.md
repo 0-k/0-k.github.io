@@ -1,37 +1,49 @@
 ---
 layout: page
+title: Privacy Policy
 permalink: /privacy/
-
 ---
 
 
-<h2>Privacy Policy</h2>
+<h1>Privacy Policy</h1>
 <p>Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
 <p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the "GDPR"), "processing" refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
 <p>The following privacy policy is intended to inform you in particular about the type, scope, purpose, duration, and legal basis for the processing of such data either under our own control or in conjunction with others. We also inform you below about the third-party components we use to optimize our website and improve the user experience which may result in said third parties also processing data they collect and control.</p>
 <p>Our privacy policy is structured as follows:</p>
-<p>I. Information about us as controllers of your data<br>II. The rights of users and data subjects<br>III. Information about the data processing</p>
-<h3>I. Information about us as controllers of your data</h3>
+<p>I. Information about us as controllers of your data<br>II. The rights of users and data subjects<br>III. Information about the data processing<br>IV. Hosting and third-party content</p>
+<h2>I. Information about us as controllers of your data</h2>
 <p>The party responsible for this website (the "controller") for purposes of data protection law is:</p>
 <p><span>Martin Klein</span>
 	<br><span>Email: hi@martinklein.co</span></p>
 
 
-<h3>II. The rights of users and data subjects</h3>
+<h2>II. The rights of users and data subjects</h2>
 <p>With regard to the data processing to be described in more detail below, users and data subjects have the right</p>
 <ul type="disc">
 <li>to confirmation of whether data concerning them is being processed, information about the data being processed, further information about the nature of the data processing, and copies of the data (cf. also Art. 15 GDPR);</li>
 <li>to correct or complete incorrect or incomplete data (cf. also Art. 16 GDPR);</li>
-<li>to the immediate deletion of data concerning them (cf. also Art. 17 DSGVO), or, alternatively, if further processing is necessary as stipulated in Art. 17 Para. 3 GDPR, to restrict said processing per Art. 18 GDPR;</li>
+<li>to the immediate deletion of data concerning them (cf. also Art. 17 GDPR), or, alternatively, if further processing is necessary as stipulated in Art. 17 Para. 3 GDPR, to restrict said processing per Art. 18 GDPR;</li>
 <li>to receive copies of the data concerning them and/or provided by them and to have the same transmitted to other providers/controllers (cf. also Art. 20 GDPR);</li>
 <li>to file complaints with the supervisory authority if they believe that data concerning them is being processed by the controller in breach of data protection provisions (see also Art. 77 GDPR).</li>
 </ul>
 <p>In addition, the controller is obliged to inform all recipients to whom it discloses data of any such corrections, deletions, or restrictions placed on processing the same per Art. 16, 17 Para. 1, 18 GDPR. However, this obligation does not apply if such notification is impossible or involves a disproportionate effort. Nevertheless, users have a right to information about these recipients.</p>
 <p>Likewise, under Art. 21 GDPR, users and data subjects have the right to object to the controller's future processing of their data pursuant to Art. 6 Para. 1 lit. f) GDPR. In particular, an objection to data processing for the purpose of direct advertising is permissible.</p>
-<h3>III. Information about the data processing</h3>
+<h2>III. Information about the data processing</h2>
 <p>Your data processed when using our website will be deleted or blocked as soon as the purpose for its storage ceases to apply, provided the deletion of the same is not in breach of any statutory storage obligations or unless otherwise stipulated below.</p>
 
 We want to process as little personal information as possible when you use our website. That's why we've chosen Fathom Analytics for our website analytics, which doesn't use cookies and complies with the GDPR, ePrivacy (including PECR), COPPA and CCPA. Using this privacy-friendly website analytics software, your IP address is only briefly processed, and we (running this website) have no way of identifying you. As per the CCPA, your personal information is de-identified. You can read more about this on [Fathom Analytics'](https://usefathom.com) website.
 The purpose of us using this software is to understand our website traffic in the most privacy-friendly way possible so that we can continually improve our website and business. The lawful basis as per the GDPR is "Article 6(1)(f); where our legitimate interests are to improve our website and business continually." As per the explanation, no personal data is stored over time.
+
+<h2>IV. Hosting and third-party content</h2>
+
+This website is hosted on GitHub Pages (GitHub, Inc.). When you visit it, GitHub processes your IP address in server logs in order to deliver the pages.
+
+A few pages load resources directly from third-party servers. Your browser then connects to these servers, which necessarily transmits your IP address to them:
+
+* The analytics script is loaded from Fathom's content delivery network (see above).
+* The blog post "LaTeX in Jekyll" loads the MathJax library from cdnjs (Cloudflare).
+* The interactive map in the blog post "Where are the batteries?" loads map tiles from OpenStreetMap and libraries from jsDelivr, cdnjs (Cloudflare), BootstrapCDN and code.jquery.com.
+
+No cookies are set by this website. The lawful basis for embedding this content is Article 6(1)(f) GDPR; the legitimate interest is to display mathematical formulas and interactive maps.
 
 <p><a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener">Model Data Protection Statement</a> for <a href="https://www.ratgeberrecht.eu/" target="_blank">Anwaltskanzlei Weiß &amp; Partner</a></p>

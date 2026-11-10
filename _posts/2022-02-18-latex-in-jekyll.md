@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "LaTex in Jekyll"
+title: "LaTeX in Jekyll"
+mathjax: true
 tags: javascript jekyll latex
 ---
 
@@ -9,15 +10,15 @@ tags: javascript jekyll latex
 
 It's very easy to include it into your Jekyll posts. Add the following script to `_layouts/post.html`:
 
-{% highlight ruby %}
+{% highlight html %}
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>`
+</script>
 {% endhighlight %}
 
 Voilà, you should be good to go. If you now type in your post:
 
-{% highlight ruby %}
+{% highlight latex %}
 $$
 e^{i\pi} + 1 = 0
 $$

@@ -14,7 +14,7 @@ This is a Jekyll-based GitHub Pages site showcasing:
 
 ## Tech Stack
 
-- **Framework**: Jekyll 4.2.0
+- **Framework**: Jekyll (GitHub Pages builds the site with its own pinned version, currently 3.10; the Gemfile is only used locally)
 - **Theme**: Minima (customized)
 - **Hosting**: GitHub Pages
 - **Analytics**: Fathom Analytics (privacy-focused)
@@ -26,14 +26,14 @@ This is a Jekyll-based GitHub Pages site showcasing:
 .
 ├── _posts/              # Blog posts (published and drafts)
 ├── _layouts/            # Custom page layouts
-├── _includes/           # Reusable components (header, footer, analytics)
-├── _sass/               # Custom styling
+├── _includes/           # Reusable components (head, header, footer)
+├── _sass/               # Theme variable overrides
+├── assets/main.scss     # Custom CSS rules
 ├── tag/                 # Tag archive pages
 ├── data/                # Images, datasets, and interactive visualizations
 │   ├── hochformat/      # Portrait photos
 │   ├── querformat/      # Landscape photos
 │   └── cv/              # Computer vision processed images
-├── open-tyndp-workshops/ # Workshop materials
 ├── index.md             # Home page
 ├── about.md             # Personal bio and experience
 ├── research.md          # Publications and presentations
@@ -94,6 +94,7 @@ Include front matter:
 layout: post
 title: "Your Post Title"
 tags: [energy, python, tech]
+mathjax: true   # only if the post contains formulas
 ---
 ```
 
@@ -106,8 +107,8 @@ tags: [energy, python, tech]
 
 ### Managing Tags
 
-- Available tags: art, energy, graphql, interview, javascript, jekyll, latex, ml, python, shopify, tech
-- Tag pages are auto-generated in `tag/` directory
+- Available tags: art, energy, gpt, graphql, interview, javascript, jekyll, latex, ml, python, shopify, tech
+- Every tag needs its own page in `tag/` (copy an existing one, e.g. `tag/python.md`); a tag without a page gives a 404 link under the post
 
 ## Configuration
 
@@ -125,7 +126,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the ma
 
 - Uses Fathom Analytics for privacy-respecting visitor tracking
 - Includes GDPR-compliant privacy policy
-- Cookie consent implementation for EU compliance
+- No cookies are set, so there is no cookie banner
 
 ## License
 

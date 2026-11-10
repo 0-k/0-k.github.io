@@ -30,6 +30,22 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Pages shown in the top navigation (in this order)
+header_pages:
+  - about.md
+  - blog.md
+  - contact.md
+  - research.md
+  - scratch.md
+
+# Files kept in the repository but not published on the site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - data/martin2.jpg
+  - vendor
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

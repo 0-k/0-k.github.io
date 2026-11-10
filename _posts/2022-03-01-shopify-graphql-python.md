@@ -8,7 +8,7 @@ GraphQL is a query language for APIs. It allows to define the structure of the r
 
 [Shopify's Admin API can be queried with GraphQL](https://shopify.dev/api/admin-graphql#top). GraphQL queries are executed by sending POST HTTP requests. This can be achieved in Python with the `requests` module like so:
 
-{% highlight ruby %}
+{% highlight python %}
 import requests
 import json
 
@@ -22,7 +22,7 @@ print(json.loads(request.text))
 
 Set your API access keyword in `YOUR_ACCESS_TOKEN`. There are many examples given on how to structure the queries. Here is a simple example to get your 10 latest orders and their respective IDs:
 
-{% highlight ruby %}
+{% highlight python %}
 your_query = """
 {
   orders(first: 10) {
