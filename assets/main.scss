@@ -21,6 +21,15 @@
   white-space: nowrap;
 }
 
+// Charts and their captions
+figure {
+  margin: 0 0 $spacing-unit / 2;
+
+  figcaption {
+    color: $grey-color-dark;
+  }
+}
+
 .footer-privacy {
   text-align: right;
   font-size: 13px;

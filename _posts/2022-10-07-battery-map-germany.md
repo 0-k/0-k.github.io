@@ -8,6 +8,8 @@ image:
   width: 700
 ---
 
+*Update: there is a [2026 version of this map](/2026/11/10/battery-map-germany-update.html).*
+
 We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.
 
 <iframe src="/data/battery_map_germany.html" title="Interactive map of battery storage projects in Germany" height="600" width="100%" loading="lazy"></iframe>

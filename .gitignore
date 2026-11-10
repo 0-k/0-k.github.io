@@ -3,3 +3,5 @@
 *DS_Store
 .idea
 _site
+_scripts/mastr_storage_snapshot.json
+__pycache__

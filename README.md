@@ -29,6 +29,7 @@ This is a Jekyll-based GitHub Pages site showcasing:
 ├── _includes/           # Reusable components (head, header, footer)
 ├── _sass/               # Theme variable overrides
 ├── assets/main.scss     # Custom CSS rules
+├── _scripts/            # Python scripts that generate maps and charts (not published)
 ├── tag/                 # Tag archive pages
 ├── data/                # Images, datasets, and interactive visualizations
 │   ├── hochformat/      # Portrait photos
