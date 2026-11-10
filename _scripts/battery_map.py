@@ -80,7 +80,7 @@ COLORS = {
 # scaling (exponent 0.57) sits in between and compensates for that.
 RADIUS_EXPONENT = 0.57
 RADIUS_FACTOR = 1.0
-RADIUS_MIN = 2.2
+RADIUS_MIN = 1.8
 
 
 def download():
@@ -247,7 +247,7 @@ MAP_TEMPLATE = Template(
   .legend h1 { font-size: 14px; margin: 0 0 2px; }
   .legend p { margin: 0 0 6px; color: #52514e; font-size: 12px; }
   .legend label { display: block; cursor: pointer; white-space: nowrap; }
-  .legend .dot { display: inline-block; box-sizing: border-box; width: 11px; height: 11px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: -1px; border: 2px solid #52514e; }
+  .legend .dot { display: inline-block; box-sizing: border-box; width: 11px; height: 11px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: -1px; border: 1.5px solid #52514e; }
   .legend .dot.operating { background: #52514e; }
   .legend .dot.mothballed { border-style: dotted; }
   .legend .techs { margin-top: 6px; }
@@ -305,9 +305,9 @@ function popup(u) {
 
 // Colour = technology. Status: filled = operating, ring = planned, dotted ring = mothballed.
 var STYLE = {
-  operating: {weight: 1, fillOpacity: 0.6},
-  planned: {weight: 1.5, fillOpacity: 0.08},
-  mothballed: {weight: 1.5, fillOpacity: 0.08, dashArray: '2 3'}
+  operating: {weight: 0.5, fillOpacity: 0.6},
+  planned: {weight: 1, fillOpacity: 0.08},
+  mothballed: {weight: 0.8, fillOpacity: 0.08, dashArray: '2 3'}
 };
 // planned first, so that operating units are drawn on top
 var order = ['planned', 'mothballed', 'operating'];
