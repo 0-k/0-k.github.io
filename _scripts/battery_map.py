@@ -79,8 +79,8 @@ COLORS = {
 # tend to underestimate the area of large circles. Flannery's perceptual
 # scaling (exponent 0.57) sits in between and compensates for that.
 RADIUS_EXPONENT = 0.57
-RADIUS_FACTOR = 1.4
-RADIUS_MIN = 2.5
+RADIUS_FACTOR = 1.0
+RADIUS_MIN = 2.2
 
 
 def download():

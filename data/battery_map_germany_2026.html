@@ -50,7 +50,7 @@ function esc(text) {
   div.textContent = text == null ? '' : String(text);
   return div.innerHTML;
 }
-function radius(mw) { return Math.max(2.5, 1.4 * Math.pow(mw, 0.57)); }
+function radius(mw) { return Math.max(2.2, 1.0 * Math.pow(mw, 0.57)); }
 function fmt(value) { return value.toLocaleString('en-US', {maximumFractionDigits: 1}); }
 
 function popup(u) {
