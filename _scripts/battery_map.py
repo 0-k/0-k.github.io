@@ -13,8 +13,12 @@ Usage (from the repository root):
 
 Outputs:
     data/battery_map_germany_2026.html   interactive Leaflet map
+    data/battery_map_germany_2022.html   the October 2022 data in the same style
     _includes/battery_growth_2026.svg    bar chart of yearly additions
     key figures for the blog post on stdout
+
+The side-by-side image in the post is a screenshot of both maps, see
+_scripts/screenshot_maps.js.
 """
 
 import argparse
@@ -29,6 +33,17 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = Path(__file__).resolve().parent / "mastr_storage_snapshot.json"
 MAP_FILE = ROOT / "data" / "battery_map_germany_2026.html"
+MAP_FILE_2022 = ROOT / "data" / "battery_map_germany_2022.html"
+
+# Manual CSV exports from the MaStR web interface of 6 October 2022, as used
+# for the first version of the map (one file per battery technology).
+DATA_2022 = Path(__file__).resolve().parent / "data_2022"
+FILES_2022 = {
+    "storage_liion.csv": "Lithium-ion",
+    "storage_lead.csv": "Lead-acid",
+    "storage_heat.csv": "High-temperature",
+}
+SNAPSHOT_2022 = "2022-10-06"
 CHART_FILE = ROOT / "_includes" / "battery_growth_2026.svg"
 
 API_URL = (
@@ -143,6 +158,50 @@ def prepare(units):
     return data.sort_values("power_mw", ascending=False)
 
 
+def prepare_2022():
+    """Brings the October 2022 CSV exports into the same shape as prepare()."""
+    frames = []
+    for filename, technology in FILES_2022.items():
+        frame = pd.read_csv(DATA_2022 / filename, sep=";", decimal=",")
+        frame["technology"] = technology
+        frames.append(frame)
+    raw = pd.concat(frames, ignore_index=True)
+
+    data = pd.DataFrame(
+        {
+            "Id": None,
+            "MaStRNummer": raw["MaStR-Nr. der Einheit"],
+            "EinheitName": raw["Anzeige-Name der Einheit"],
+            "BetriebsStatusName": raw["Betriebs-Status"],
+            "Breitengrad": raw["Koordinate: Breitengrad (WGS84)"],
+            "Laengengrad": raw["Koordinate: Längengrad (WGS84)"],
+            "Bundesland": raw["Bundesland"],
+            "Ort": raw["Ort"],
+            "AnlagenbetreiberName": raw["Name des Anlagenbetreibers (nur Org.)"],
+            "technology": raw["technology"],
+            "power_mw": raw["Nettonennleistung der Einheit"] / 1000,
+            "energy_mwh": raw["Nutzbare Speicherkapazität in kWh"] / 1000,
+            "commissioned": pd.to_datetime(
+                raw["Inbetriebnahmedatum der Einheit"], dayfirst=True
+            ),
+            "planned_for": pd.to_datetime(
+                raw["Datum der geplanten Inbetriebnahme"], dayfirst=True
+            ),
+        }
+    )
+    data = data[data["power_mw"] >= MIN_POWER_KW / 1000]
+    data = data[data["BetriebsStatusName"].isin(STATUS)]
+    data = data[~data["AnlagenbetreiberName"].str.contains("natürliche", na=False)]
+    data = data.dropna(subset=["Bundesland"])  # units abroad (LU, AT)
+
+    data["status"] = data["BetriebsStatusName"].map(STATUS)
+    data["technology_group"] = data["technology"].map(TECHNOLOGY_GROUP).fillna("Other")
+    data["e_to_p"] = data["energy_mwh"] / data["power_mw"]
+    low, high = PLAUSIBLE_E_TO_P_HOURS
+    data["energy_plausible"] = data["e_to_p"].between(low, high)
+    return data.sort_values("power_mw", ascending=False)
+
+
 def key_figures(data, retrieved):
     figures = {"retrieved": retrieved}
     for status, group in data.groupby("status"):
@@ -212,9 +271,9 @@ def map_records(data):
     for _, unit in located.iterrows():
         records.append(
             {
-                "id": int(unit["Id"]),
+                "id": None if pd.isna(unit["Id"]) else int(unit["Id"]),
                 "mastr": unit["MaStRNummer"],
-                "name": unit["EinheitName"] or "",
+                "name": unit["EinheitName"] if pd.notna(unit["EinheitName"]) else "",
                 "status": unit["status"],
                 "lat": round(unit["Breitengrad"], 4),
                 "lon": round(unit["Laengengrad"], 4),
@@ -223,8 +282,11 @@ def map_records(data):
                 "date": format_date(
                     unit["planned_for"] if unit["status"] == "planned" else unit["commissioned"]
                 ),
-                "operator": unit["AnlagenbetreiberName"] or "",
-                "place": ", ".join(p for p in (unit["Ort"], unit["Bundesland"]) if p),
+                "operator": unit["AnlagenbetreiberName"]
+                if pd.notna(unit["AnlagenbetreiberName"]) else "",
+                "place": ", ".join(
+                    p for p in (unit["Ort"], unit["Bundesland"]) if pd.notna(p)
+                ),
                 "tech": unit["technology"],
                 "group": unit["technology_group"],
             }
@@ -271,7 +333,9 @@ var COLORS = $colors;
 var TOTALS = $totals;
 var TECH_COUNTS = $tech_counts;
 
-var map = L.map('map', {preferCanvas: true, zoomSnap: 0.5});
+// "?static" hides the zoom buttons (used for screenshots)
+var isStatic = location.search.indexOf('static') >= 0;
+var map = L.map('map', {preferCanvas: true, zoomSnap: 0.5, zoomControl: !isStatic});
 map.fitBounds([[47.2, 5.9], [55.3, 15.05]]);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
@@ -298,8 +362,9 @@ function popup(u) {
   rows.push('<b>Technology:</b> ' + esc(u.tech));
   if (u.operator) rows.push('<b>Operator:</b> ' + esc(u.operator));
   rows.push('<b>Location:</b> ' + esc(u.place));
-  rows.push('<b>MaStR:</b> <a target="_blank" rel="noopener" href="https://www.marktstammdatenregister.de/MaStR/Einheit/Detail/IndexOeffentlich/' +
-    u.id + '">' + esc(u.mastr) + '</a>');
+  rows.push('<b>MaStR:</b> ' + (u.id == null ? esc(u.mastr) :
+    '<a target="_blank" rel="noopener" href="https://www.marktstammdatenregister.de/MaStR/Einheit/Detail/IndexOeffentlich/' +
+    u.id + '">' + esc(u.mastr) + '</a>'));
   return rows.join('<br>');
 }
 
@@ -347,7 +412,7 @@ legend.onAdd = function () {
 legend.addTo(map);
 
 // nested circles as size legend
-var sizeLegend = L.control({position: 'bottomleft'});
+var sizeLegend = L.control({position: 'bottomright'});
 sizeLegend.onAdd = function () {
   var div = L.DomUtil.create('div', 'legend size-legend');
   var sizes = [1000, 100, 10];
@@ -374,10 +439,11 @@ def gw(mw):
     return f"{mw / 1000:.1f} GW" if mw >= 1000 else f"{mw:.0f} MW"
 
 
-def write_map(data, retrieved):
-    totals = {
-        status: gw(group["power_mw"].sum()) for status, group in data.groupby("status")
-    }
+def write_map(data, retrieved, map_file):
+    totals = {status: gw(0) for status in STATUS.values()}
+    totals.update(
+        {status: gw(group["power_mw"].sum()) for status, group in data.groupby("status")}
+    )
     html = MAP_TEMPLATE.substitute(
         units=json.dumps(map_records(data), ensure_ascii=False, separators=(",", ":"))
         .replace("</", "<\\/"),
@@ -389,7 +455,7 @@ def write_map(data, retrieved):
         radius_min=RADIUS_MIN,
         retrieved_long=f"{retrieved.day} {retrieved:%B %Y}",
     )
-    MAP_FILE.write_text(html, encoding="utf-8")
+    map_file.write_text(html, encoding="utf-8")
 
 
 def write_chart(data, retrieved, first_year=2016):
@@ -459,7 +525,8 @@ def main():
     retrieved = pd.Timestamp(snapshot["retrieved"])
     data = prepare(snapshot["units"])
 
-    write_map(data, retrieved)
+    write_map(data, retrieved, MAP_FILE)
+    write_map(prepare_2022(), pd.Timestamp(SNAPSHOT_2022), MAP_FILE_2022)
     write_chart(data, retrieved)
     print(json.dumps(key_figures(data, retrieved.date().isoformat()), indent=2,
                      ensure_ascii=False, default=str))

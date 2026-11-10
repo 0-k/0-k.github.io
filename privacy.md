@@ -42,7 +42,7 @@ A few pages load resources directly from third-party servers. Your browser then 
 
 * The analytics script is loaded from Fathom's content delivery network (see above).
 * The blog post "LaTeX in Jekyll" loads the MathJax library from cdnjs (Cloudflare).
-* The interactive map in the blog post "Where are the batteries? The 2026 update" loads map tiles from OpenStreetMap.
+* The interactive map in the blog post "Where are the batteries? The 2026 update" and the 2022 map linked from it load map tiles from OpenStreetMap.
 * The interactive map in the 2022 blog post "Where are the batteries?" loads map tiles from OpenStreetMap and libraries from jsDelivr, cdnjs (Cloudflare), BootstrapCDN and code.jquery.com.
 
 No cookies are set by this website. The lawful basis for embedding this content is Article 6(1)(f) GDPR; the legitimate interest is to display mathematical formulas and interactive maps.

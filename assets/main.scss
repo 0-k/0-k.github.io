@@ -25,6 +25,10 @@
 figure {
   margin: 0 0 $spacing-unit / 2;
 
+  img {
+    height: auto;
+  }
+
   figcaption {
     color: $grey-color-dark;
   }

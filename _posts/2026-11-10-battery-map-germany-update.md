@@ -27,6 +27,13 @@ One thing has changed: the size of the circles. In 2022, the radius grew linearl
 | Largest unit in operation | 66 MW | 140 MW |
 | Largest planned unit | 73 MW | 1,000 MW |
 
+As a reminder, this is what the [2022 data](/data/battery_map_germany_2022.html){:target="_blank"} looks like next to today's, redrawn in the same style and with the same circle scale:
+
+<figure>
+<a href="/data/battery_map_comparison_2022_2026.jpg"><img src="/data/battery_map_comparison_2022_2026.jpg" alt="Two maps of batteries of at least 1 MW in Germany side by side. October 2022: about 180 mostly small circles, 652 MW operating and 392 MW planned. November 2026: more than 1,200 circles all over the country, 4.5 GW operating and 12.8 GW planned, with very large planned projects in Lusatia and near Leipzig." width="2400" height="1600" loading="lazy"></a>
+<figcaption><small>Left: 6 October 2022. Right: 10 November 2026. Click to enlarge.</small></figcaption>
+</figure>
+
 The operating fleet has grown roughly sevenfold. And it is accelerating: 1.9 GW went online in 2026 so far, compared to 2.6 GW in all the years before combined.
 
 <figure>
