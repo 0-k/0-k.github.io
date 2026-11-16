@@ -40,7 +40,7 @@ Welcome to my first machine interview. We have come a long way.
 <br>
 <br>
 
-**How can we achieve that? Who do we handle and share data better?**
+**How can we achieve that? How do we handle and share data better?**
 
 *GPT-3:* There are several ways to handle and share data better. One possibility is to develop better methods for storing, organizing, and sharing data. Another possibility is to create more opportunities for scientists to collaborate. One way to achieve better data sharing would be to develop standard formats for storing and sharing data. Another way would be to create incentives for scientists to share their data.
 <br>

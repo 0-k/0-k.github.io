@@ -1,0 +1,44 @@
+---
+# Overrides the theme's assets/main.scss so that custom rules end up in /assets/main.css
+---
+
+@import "minima";
+
+// Images in the gallery and in posts
+.image-quer,
+.image-hoch {
+  display: block;
+  margin: 0 auto;
+}
+
+// Hidden visually, still announced by screen readers
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+// Charts and their captions
+figure {
+  margin: 0 0 $spacing-unit / 2;
+
+  img {
+    height: auto;
+  }
+
+  figcaption {
+    color: $grey-color-dark;
+  }
+}
+
+.footer-privacy {
+  text-align: right;
+  font-size: 13px;
+
+  a {
+    color: $grey-color-dark;
+  }
+}

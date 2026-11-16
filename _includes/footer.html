@@ -3,8 +3,6 @@
   
   <div class="wrapper">
 
-    <h2 class="footer-heading"></h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -14,7 +12,7 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li></b>
+            </b></li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
@@ -27,16 +25,10 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-        <div align="right">
-          <a href="/privacy" style="color:#c4c4c4"> <small><small><small>privacy policy</small></small></small></a>
-        </div>
+        <p class="footer-privacy"><a href="{{ "/privacy/" | relative_url }}">privacy policy</a></p>
       </div>
 
     </div>
-
-    <div>
-        
-      </div>
 
   </div>
 

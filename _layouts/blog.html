@@ -11,19 +11,19 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        <h3><b>
+        <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            <b>{{ post.title | escape }}</b>
           </a>
-        </h3></b>
+        </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li></b>
+      </li>
       {%- endfor -%}
     </ul>
 
-    <i><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></i></p>
+    <p class="rss-subscribe"><i>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></i></p>
   {%- endif -%}
 
 </div>

@@ -4,13 +4,15 @@ title: Where are the batteries?
 tags: python energy
 image:
   path: /data/preview/battery-map-germany.jpg
-  height: 100
-  width: 100
+  height: 553
+  width: 700
 ---
+
+*Update: there is a [2026 version of this map](/2026/11/10/battery-map-germany-update.html).*
 
 We are entering the age of megawatt-scale batteries. I wondered how far we have come in Germany, so I created this map showing the latest projects.
 
-<iframe src="/data/battery_map_germany.html" height="600" width="100%"></iframe>
+<iframe src="/data/battery_map_germany.html" title="Interactive map of battery storage projects in Germany" height="600" width="100%" loading="lazy"></iframe>
 
 [View in full-screen](/data/battery_map_germany.html){:target="_blank"}
 

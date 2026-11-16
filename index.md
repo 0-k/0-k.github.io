@@ -6,4 +6,6 @@ layout: page
 ---
 
 
-![welcome](/data/querformat/58_1k.jpg){:class="img-responsive"}
+<h1 class="visually-hidden">Martin Klein</h1>
+
+![Analog photo of a beach, manipulated with colored ink](/data/querformat/58_1k.jpg)
